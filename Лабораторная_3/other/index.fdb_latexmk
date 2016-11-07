@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1478542907 "index.tex" "other/index.pdf" "index" 1478542908
+["pdflatex"] 1478550063 "index.tex" "other/index.pdf" "index" 1478550065
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1465291798 3308 eee81981029f67083258db36df06e523 ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1465291801 3304 6a543c07045572737981351171e0505e ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1467578625 3312 d199be9bd555944e2403193d58a0256a ""
@@ -126,13 +126,14 @@
   "addons/lab-kol.tex" 1475912920 770 b3eb8c4febb941b3df4e8a8bd7318a59 ""
   "img/axes.png" 1478542571 13852 dd66de64742e822ed9e5c76f0d9be989 ""
   "img/figure_1.png" 1477547607 31342 7502320671d942f6163e37bea3e75706 ""
-  "img/figure_3.eps" 1478462477 21275 ab048ca2ad3aa4cb58b34ce740f29a3c ""
-  "index.tex" 1478542906 20186 5fa733c457eec1316e0ed498980415d7 ""
-  "other/index.aux" 1478542908 9230 d819d1738f929f52900651ac430b60ca ""
-  "other/index.out" 1478542908 2919 d8456d381545f87bfef55038811da0c5 ""
+  "img/hor.png" 1478549784 50224 25ca6e6d5507e2a6f169cda2f477ee48 ""
+  "img/vert.png" 1478549771 80782 8455eb967886b13104fa40246338dff4 ""
+  "index.tex" 1478550062 21852 fade510c01cc639726d75373d4e1298d ""
+  "other/index.aux" 1478550064 10571 9334612a44d4dc88e976b3a371dd872f ""
+  "other/index.out" 1478550064 2919 d8456d381545f87bfef55038811da0c5 ""
   (generated)
+  "other/index.aux"
+  "other/index.pdf"
+  "other/index.sympy"
   "other/index.out"
   "other/index.log"
-  "other/index.pdf"
-  "other/index.aux"
-  "other/index.sympy"
