@@ -200,6 +200,9 @@ INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm
 INPUT img/figure_1.png
 INPUT ./img/figure_1.png
 INPUT ./img/figure_1.png
+INPUT img/axes.png
+INPUT ./img/axes.png
+INPUT ./img/axes.png
 INPUT img/figure_3.eps
 INPUT ./img/figure_3.eps
 INPUT ./img/figure_3.eps

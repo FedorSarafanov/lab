@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1478466451 "index.tex" "other/index.pdf" "index" 1478520787
+["pdflatex"] 1478542907 "index.tex" "other/index.pdf" "index" 1478542908
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1465291798 3308 eee81981029f67083258db36df06e523 ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1465291801 3304 6a543c07045572737981351171e0505e ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1467578625 3312 d199be9bd555944e2403193d58a0256a ""
@@ -124,14 +124,15 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1474371341 7252863 aa81d4679b1275fc89f581272213e0b8 ""
   "addons/lab-head.tex" 1475913081 3409 a7e9d116fd8f7db02e2e8002e6905ac3 ""
   "addons/lab-kol.tex" 1475912920 770 b3eb8c4febb941b3df4e8a8bd7318a59 ""
+  "img/axes.png" 1478542571 13852 dd66de64742e822ed9e5c76f0d9be989 ""
   "img/figure_1.png" 1477547607 31342 7502320671d942f6163e37bea3e75706 ""
   "img/figure_3.eps" 1478462477 21275 ab048ca2ad3aa4cb58b34ce740f29a3c ""
-  "index.tex" 1478466450 19094 f8dab822d6cb0f87f13a2b108c343251 ""
-  "other/index.aux" 1478466452 7644 4a47d7024655da8b2b6ccacfb5f6b0e8 ""
-  "other/index.out" 1478466452 2556 007e1e5c606cc7ffb8fcf2b098203332 ""
+  "index.tex" 1478542906 20186 5fa733c457eec1316e0ed498980415d7 ""
+  "other/index.aux" 1478542908 9230 d819d1738f929f52900651ac430b60ca ""
+  "other/index.out" 1478542908 2919 d8456d381545f87bfef55038811da0c5 ""
   (generated)
   "other/index.out"
-  "other/index.pdf"
   "other/index.log"
-  "other/index.sympy"
+  "other/index.pdf"
   "other/index.aux"
+  "other/index.sympy"
