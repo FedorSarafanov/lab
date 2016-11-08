@@ -128,6 +128,8 @@ INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT /usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT /usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
 INPUT addons/lab-kol.tex
 INPUT addons/lab-kol.tex
 INPUT other/index.aux
@@ -163,6 +165,8 @@ INPUT /usr/share/texmf-dist/tex/latex/ucs/data/uni-33.def
 INPUT /usr/share/texmf-dist/tex/latex/ucs/data/uni-33.def
 INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT other/index.toc
+INPUT other/index.toc
 INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texmf-dist/tex/latex/cmap/ot1.cmap
@@ -193,13 +197,14 @@ INPUT /usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+OUTPUT other/index.toc
 INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm0800.tfm
 INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm0600.tfm
-INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm
-INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm
 INPUT img/figure_1.png
 INPUT ./img/figure_1.png
 INPUT ./img/figure_1.png
+INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm
+INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm
 INPUT img/axes.png
 INPUT ./img/axes.png
 INPUT ./img/axes.png
@@ -209,6 +214,8 @@ INPUT ./img/vert.png
 INPUT img/hor.png
 INPUT ./img/hor.png
 INPUT ./img/hor.png
+INPUT other/index.bbl
+INPUT other/index.bbl
 INPUT other/index.aux
 INPUT other/index.out
 INPUT other/index.out

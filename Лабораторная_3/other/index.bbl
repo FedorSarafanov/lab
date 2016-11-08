@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{bellustin}
+\selectlanguageifdefined{russian}
+Беллюстин~С.~В. Классическая электронная
+  теория.
+\newblock М.: Высшая школа, 1971.
+\newblock {С.}~81--87.
+
+\bibitem{arcimovich}
+\selectlanguageifdefined{russian}
+Арцимович~Л.~А., Лукьянов~С.~Ю. Движение
+  заряженных частиц в электрических и
+  магнитных полях.
+\newblock М.: Наука, 1972.
+\newblock {С.}~102--104.
+
+\bibitem{andreev}
+\selectlanguageifdefined{russian}
+Андреев~В.~А. Электричество, магнетизм,
+  колебания и волны: учебное пособие для
+  выполнения лабораторных работ.
+\newblock Чебоксары: ЧПИ МГОУ, 2013.
+\newblock {С.}~87--88.
+
+\bibitem{radantscev}
+\selectlanguageifdefined{russian}
+Раданцев~В.~Ф. Электронные свойства
+  полупроводниковых наноструктур.
+\newblock Екб.: УрГУ, 2008.
+\newblock {С.}~286--290.
+
+\end{thebibliography}

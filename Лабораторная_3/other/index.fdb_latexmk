@@ -1,5 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1478550063 "index.tex" "other/index.pdf" "index" 1478550065
+["bibtex other/index"] 1478604127 "other/index.aux" "other/index.bbl" "other/index" 1478604453
+  "./utf8gost705u.bst" 1351811510 30556 f199395139a406fa1bbc5650c70663f8 ""
+  "biblio.bib" 1478603115 2032 143a480cc15ccefa5b14850a82144988 ""
+  "other/index.aux" 1478604452 10147 b0ceac5e48edc0d50d5d92d021f14984 ""
+  "other/index.bcf" 0 -1 0 ""
+  (generated)
+  "other/index.blg"
+  "other/index.bbl"
+["pdflatex"] 1478604451 "index.tex" "other/index.pdf" "index" 1478604453
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1465291798 3308 eee81981029f67083258db36df06e523 ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1465291801 3304 6a543c07045572737981351171e0505e ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1467578625 3312 d199be9bd555944e2403193d58a0256a ""
@@ -108,6 +116,7 @@
   "/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty" 1471317724 22417 1d9df1eb66848aa31b18a593099cf45c ""
   "/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty" 1471317724 9581 023642318cef9f4677efe364de1e2a27 ""
   "/usr/share/texmf-dist/tex/latex/t2/misccorr.sty" 1470261278 10309 f6015bffa39b43089d24fa4afcaa6ea5 ""
+  "/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty" 1476971572 34706 345df874e59e023274392bd0cf090d66 ""
   "/usr/share/texmf-dist/tex/latex/tools/array.sty" 1471317725 12398 bd782945c489f84ff012bcea4a712d25 ""
   "/usr/share/texmf-dist/tex/latex/tools/enumerate.sty" 1471317725 3467 d39e40f25d5fd2b3b49a58d155063dd6 ""
   "/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty" 1471317725 1617 820bc46185ca5aeeda2ecc6c21866b18 ""
@@ -128,12 +137,15 @@
   "img/figure_1.png" 1477547607 31342 7502320671d942f6163e37bea3e75706 ""
   "img/hor.png" 1478549784 50224 25ca6e6d5507e2a6f169cda2f477ee48 ""
   "img/vert.png" 1478549771 80782 8455eb967886b13104fa40246338dff4 ""
-  "index.tex" 1478550062 21852 fade510c01cc639726d75373d4e1298d ""
-  "other/index.aux" 1478550064 10571 9334612a44d4dc88e976b3a371dd872f ""
-  "other/index.out" 1478550064 2919 d8456d381545f87bfef55038811da0c5 ""
+  "index.tex" 1478604450 22395 ea3f460e5759b3f39f1aabfcb7ba133e ""
+  "other/index.aux" 1478604452 10147 b0ceac5e48edc0d50d5d92d021f14984 ""
+  "other/index.bbl" 1478604127 1471 971430c05779c2e52a11b0f11309fe80 "bibtex other/index"
+  "other/index.out" 1478604452 2413 756e3eeaa2b60e1b3ec0c71b61fa553f ""
+  "other/index.toc" 1478604452 3639 36b5d6b32542d08f1555855e310397a0 ""
   (generated)
-  "other/index.aux"
-  "other/index.pdf"
   "other/index.sympy"
-  "other/index.out"
+  "other/index.toc"
+  "other/index.pdf"
   "other/index.log"
+  "other/index.out"
+  "other/index.aux"
