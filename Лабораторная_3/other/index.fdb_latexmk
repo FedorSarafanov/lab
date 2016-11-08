@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex other/index"] 1478615146 "other/index.aux" "other/index.bbl" "other/index" 1478624017
+["bibtex other/index"] 1478632549 "other/index.aux" "other/index.bbl" "other/index" 1478632640
   "./utf8gost705u.bst" 1351811510 30556 f199395139a406fa1bbc5650c70663f8 ""
   "biblio.bib" 1478603115 2032 143a480cc15ccefa5b14850a82144988 ""
-  "other/index.aux" 1478624017 7774 8b5779e4cba37c0560673f10376db088 ""
+  "other/index.aux" 1478632640 9088 f4002c7de0209fc5c1aa211413455e05 ""
   "other/index.bcf" 0 -1 0 ""
   (generated)
-  "other/index.blg"
   "other/index.bbl"
-["pdflatex"] 1478624015 "index.tex" "other/index.pdf" "index" 1478624017
+  "other/index.blg"
+["pdflatex"] 1478632636 "index.tex" "other/index.pdf" "index" 1478632640
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1465291798 3308 eee81981029f67083258db36df06e523 ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1465291801 3304 6a543c07045572737981351171e0505e ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1467578625 3312 d199be9bd555944e2403193d58a0256a ""
@@ -113,6 +113,7 @@
   "/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty" 1471317724 22417 1d9df1eb66848aa31b18a593099cf45c ""
   "/usr/share/texmf-dist/tex/latex/soul/soul.sty" 1476971572 23636 c37eef0334dd2011d112d2040c11328f ""
   "/usr/share/texmf-dist/tex/latex/t2/misccorr.sty" 1470261278 10309 f6015bffa39b43089d24fa4afcaa6ea5 ""
+  "/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty" 1476971572 37387 afa86533e532701faf233f3f592c61e0 ""
   "/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty" 1476971572 34706 345df874e59e023274392bd0cf090d66 ""
   "/usr/share/texmf-dist/tex/latex/tools/array.sty" 1471317725 12398 bd782945c489f84ff012bcea4a712d25 ""
   "/usr/share/texmf-dist/tex/latex/tools/enumerate.sty" 1471317725 3467 d39e40f25d5fd2b3b49a58d155063dd6 ""
@@ -133,14 +134,15 @@
   "img/figure_1.png" 1477547607 31342 7502320671d942f6163e37bea3e75706 ""
   "img/o_horisontal.png" 1478549771 80782 8455eb967886b13104fa40246338dff4 ""
   "img/o_vertical.png" 1478611144 50412 f2551e0116089ad209bfa7269e120337 ""
-  "index.tex" 1478624015 22672 30cfedc821c88d0accbcfcf6fcb8f34b ""
-  "other/index.aux" 1478624017 7774 8b5779e4cba37c0560673f10376db088 ""
-  "other/index.bbl" 1478615146 1471 971430c05779c2e52a11b0f11309fe80 "bibtex other/index"
-  "other/index.toc" 1478624017 3579 e2a12b420826e80161fa1b08928073f6 ""
+  "img/otkl.png" 1478632408 63542 94fee57f1fd678b69b41fb21e7e82033 ""
+  "index.tex" 1478632635 24257 ccfbf5910c4927419bfe1f2964cc05fb ""
+  "other/index.aux" 1478632640 9088 f4002c7de0209fc5c1aa211413455e05 ""
+  "other/index.bbl" 1478632549 1471 971430c05779c2e52a11b0f11309fe80 "bibtex other/index"
+  "other/index.toc" 1478632640 3539 fb4daddc5d0cd269bbeb55438a573039 ""
   (generated)
   "other/index.log"
   "other/index.sympy"
-  "other/index.pdf"
-  "other/index.out"
   "other/index.aux"
   "other/index.toc"
+  "other/index.pdf"
+  "other/index.out"

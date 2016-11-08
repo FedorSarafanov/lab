@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.9.20)  8 NOV 2016 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.9.20)  8 NOV 2016 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,42 +309,54 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen131
 \SOUL@ulht=\dimen132
 )
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box32
+\beforetitleunit=\skip72
+\aftertitleunit=\skip73
+\ttl@plus=\dimen133
+\ttl@minus=\dimen134
+\ttl@toksa=\toks42
+\titlewidth=\dimen135
+\titlewidthlast=\dimen136
+\titlewidthfirst=\dimen137
+)
 (/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 44.
-\cftparskip=\skip72
-\cftbeforetoctitleskip=\skip73
-\cftaftertoctitleskip=\skip74
-\cftbeforepartskip=\skip75
-\cftpartnumwidth=\skip76
-\cftpartindent=\skip77
-\cftbeforesecskip=\skip78
-\cftsecindent=\skip79
-\cftsecnumwidth=\skip80
-\cftbeforesubsecskip=\skip81
-\cftsubsecindent=\skip82
-\cftsubsecnumwidth=\skip83
-\cftbeforesubsubsecskip=\skip84
-\cftsubsubsecindent=\skip85
-\cftsubsubsecnumwidth=\skip86
-\cftbeforeparaskip=\skip87
-\cftparaindent=\skip88
-\cftparanumwidth=\skip89
-\cftbeforesubparaskip=\skip90
-\cftsubparaindent=\skip91
-\cftsubparanumwidth=\skip92
-\cftbeforeloftitleskip=\skip93
-\cftafterloftitleskip=\skip94
-\cftbeforefigskip=\skip95
-\cftfigindent=\skip96
-\cftfignumwidth=\skip97
+\cftparskip=\skip74
+\cftbeforetoctitleskip=\skip75
+\cftaftertoctitleskip=\skip76
+\cftbeforepartskip=\skip77
+\cftpartnumwidth=\skip78
+\cftpartindent=\skip79
+\cftbeforesecskip=\skip80
+\cftsecindent=\skip81
+\cftsecnumwidth=\skip82
+\cftbeforesubsecskip=\skip83
+\cftsubsecindent=\skip84
+\cftsubsecnumwidth=\skip85
+\cftbeforesubsubsecskip=\skip86
+\cftsubsubsecindent=\skip87
+\cftsubsubsecnumwidth=\skip88
+\cftbeforeparaskip=\skip89
+\cftparaindent=\skip90
+\cftparanumwidth=\skip91
+\cftbeforesubparaskip=\skip92
+\cftsubparaindent=\skip93
+\cftsubparanumwidth=\skip94
+\cftbeforeloftitleskip=\skip95
+\cftafterloftitleskip=\skip96
+\cftbeforefigskip=\skip97
+\cftfigindent=\skip98
+\cftfignumwidth=\skip99
 \c@lofdepth=\count111
 \c@lotdepth=\count112
-\cftbeforelottitleskip=\skip98
-\cftafterlottitleskip=\skip99
-\cftbeforetabskip=\skip100
-\cfttabindent=\skip101
-\cfttabnumwidth=\skip102
+\cftbeforelottitleskip=\skip100
+\cftafterlottitleskip=\skip101
+\cftbeforetabskip=\skip102
+\cfttabindent=\skip103
+\cfttabnumwidth=\skip104
 ) (./addons/lab-kol.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
@@ -358,43 +370,39 @@ less on input line 9.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 13.
 
-) (other/index.aux
-
-LaTeX Warning: Label `fig:figure1' multiply defined.
-
-)
+) (other/index.aux)
 \openout1 = `index.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
  (/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
-\scratchdimen=\dimen133
-\scratchbox=\box32
+\scratchdimen=\dimen138
+\scratchbox=\box33
 \nofMPsegments=\count114
 \nofMParguments=\count115
-\everyMPshowfont=\toks42
+\everyMPshowfont=\toks43
 \MPscratchCnt=\count116
-\MPscratchDim=\dimen134
+\MPscratchDim=\dimen139
 \MPnumerator=\count117
 \makeMPintoPDFobject=\count118
-\everyMPtoPDFconversion=\toks43
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -500,12 +508,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <img/chem.png, id=19, 804.39651pt x 502.74783pt>
 File: img/chem.png Graphic file (type png)
  <use img/chem.png>
-Package pdftex.def Info: img/chem.png used on input line 78.
+Package pdftex.def Info: img/chem.png used on input line 81.
 (pdftex.def)             Requested size: 455.24411pt x 284.52867pt.
-
-Overfull \hbox (2.91985pt too wide) in paragraph at lines 83--83
-[]\T2A/cmr/bx/n/17.28 Измерение удель-но-го за-ря-да элек-тро-на ме-то-дом от-
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -513,74 +517,96 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./img/chem.png>] <img/figure_1.png, id=33, 578.16pt x 433.62pt>
-File: img/figure_1.png Graphic file (type png)
+[2
 
-<use img/figure_1.png>
-Package pdftex.def Info: img/figure_1.png used on input line 146.
+ <./img/chem.png>]
+Overfull \hbox (2.91985pt too wide) in paragraph at lines 97--97
+|[]\T2A/cmr/bx/n/17.28 Измерение удель-но-го за-ря-да элек-тро-на ме-то-дом от-
+
+ []
+
+<img/otkl.png, id=30, 130.44736pt x 183.20445pt>
+File: img/otkl.png Graphic file (type png)
+ <use img/otkl.png>
+Package pdftex.def Info: img/otkl.png used on input line 105.
+(pdftex.def)             Requested size: 227.62206pt x 319.70125pt.
+ [3
+
+ <./img/otkl.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/figure_1.png, id=38, 578.16pt x 433.62pt>
+File: img/figure_1.png Graphic file (type png)
+ <use img/figure_1.png>
+Package pdftex.def Info: img/figure_1.png used on input line 190.
 (pdftex.def)             Requested size: 455.24411pt x 341.43124pt.
- [3]
-Overfull \hbox (8.60143pt too wide) in paragraph at lines 153--153
-[]\T2A/cmr/bx/n/17.28 Измерение удель-но-го за-ря-да элек-тро-на ме-то-дом фо-
+ [4]
+[5 <./img/figure_1.png>]
+Overfull \hbox (8.60143pt too wide) in paragraph at lines 196--196
+|[]\T2A/cmr/bx/n/17.28 Измерение удель-но-го за-ря-да элек-тро-на ме-то-дом фо-
+
  []
 
 
-Overfull \hbox (2.4862pt too wide) in paragraph at lines 153--153
+Overfull \hbox (2.4862pt too wide) in paragraph at lines 196--196
 \T2A/cmr/bx/n/17.28 ку-си-ров-ки пуч-ка про-доль-ным маг-нит-ным по-лем со-
  []
 
-[4 <./img/figure_1.png>] [5] [6]
-<img/axes.png, id=50, 519.9425pt x 484.81125pt>
+[6
+
+] [7] <img/axes.png, id=54, 519.9425pt x 484.81125pt>
 File: img/axes.png Graphic file (type png)
  <use img/axes.png>
-Package pdftex.def Info: img/axes.png used on input line 244.
+Package pdftex.def Info: img/axes.png used on input line 287.
 (pdftex.def)             Requested size: 259.97061pt x 242.40503pt.
- [7 <./img/axes.png>] [8] [9] <img/o_horisontal.png, id=63, 915.42pt x 903.375p
-t>
+
+[8
+
+ <./img/axes.png>] [9] [10]
+<img/o_horisontal.png, id=67, 915.42pt x 903.375pt>
 File: img/o_horisontal.png Graphic file (type png)
-
-<use img/o_horisontal.png>
-Package pdftex.def Info: img/o_horisontal.png used on input line 391.
+ <use img/o_horisontal.png>
+Package pdftex.def Info: img/o_horisontal.png used on input line 434.
 (pdftex.def)             Requested size: 200.76353pt x 198.12282pt.
- <img/o_vertical.png, id=64, 915.42pt x 903.375pt>
+
+<img/o_vertical.png, id=68, 915.42pt x 903.375pt>
 File: img/o_vertical.png Graphic file (type png)
-
-<use img/o_vertical.png>
-Package pdftex.def Info: img/o_vertical.png used on input line 395.
+ <use img/o_vertical.png>
+Package pdftex.def Info: img/o_vertical.png used on input line 438.
 (pdftex.def)             Requested size: 200.76353pt x 198.12282pt.
- [10 <./img/o_horisontal.png> <./img/o_vertical.png>]
-(other/index.bbl) [11] (other/index.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+[11 <./img/o_horisontal.png> <./img/o_vertical.png>] (other/index.bbl [12])
+[13
 
- ) 
+] (other/index.aux) ) 
 Here is how much of TeX's memory you used:
- 6522 strings out of 493013
- 83801 string characters out of 6139317
- 169502 words of memory out of 5000000
- 9866 multiletter control sequences out of 15000+600000
+ 6794 strings out of 493013
+ 87240 string characters out of 6139317
+ 174526 words of memory out of 5000000
+ 10133 multiletter control sequences out of 15000+600000
  16772 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,15n,43p,1360b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
-sr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-
-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type
-1/public/cm-super/sfcc1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-sup
-er/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
-></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
-xmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on other/index.pdf (12 pages, 427743 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
+2a.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-sup
+er/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/te
+xmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf-dist/fonts/
+type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm
+-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200
+.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on other/index.pdf (14 pages, 478597 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 136 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
