@@ -23,8 +23,8 @@ lv=0.144-0.016
 
 def delta_n(I1,I2):
 	dn=I1/(I2-I1)*(dI/I1+2*dI/(I2-I1))
-	return 'Количество фокусивок, эксперимент: '+str(I1/(I2-I1))+', доверительный интервал: '+str([I1/(I2-I1)-dn,I1/(I2-I1)+dn])
-	# return I1/(I2-I1)
+	# return 'Количество фокусивок, эксперимент: '+str(I1/(I2-I1))+', доверительный интервал: '+str([I1/(I2-I1)-dn,I1/(I2-I1)+dn])
+	return [I1/(I2-I1),dn]
 
 # Переменные
 def great(U_a,I,L,d,vert):
@@ -121,9 +121,9 @@ def great(U_a,I,L,d,vert):
 		phi_0=pi-phi(tau)
 
 
-	print('Оборотов вне пластин, рад:',beta)
-	print('Оборотов в пластинах без скрещенных полей, рад:',omega*tau)
-	print('Оборотов в пластинах со скрещенными полями, рад:',phi_0)	
+	# print('Оборотов вне пластин, рад:',beta)
+	# print('Оборотов в пластинах без скрещенных полей, рад:',omega*tau)
+	# print('Оборотов в пластинах со скрещенными полями, рад:',phi_0)	
 	# print(y(t))
 	# print(R,R_)
 
@@ -133,9 +133,9 @@ def great(U_a,I,L,d,vert):
 	# print(phi_0)
 	# print(x([tau]),y([tau]),v_x(tau),v_y(tau))
 	# return (2*pi-phi_0)/(2*pi)
-	print(v_x(tau),v_y(tau))	
-	print(v0y*cos(omega*tau),v0y*sin(omega*tau))
-	return('Количество фокусивок, теория: '+str((beta+phi_0)/(2*pi)))
+	# print(v_x(tau),v_y(tau))	
+	# print(v0y*cos(omega*tau),v0y*sin(omega*tau))
+	return(str((beta+phi_0)/(2*pi)))
 	# plt.show()
 
 print(great(1200,0.6,0.014,0.006,0))

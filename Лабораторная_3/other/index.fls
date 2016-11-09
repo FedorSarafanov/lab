@@ -201,6 +201,18 @@ INPUT ./img/o_horisontal.png
 INPUT img/o_vertical.png
 INPUT ./img/o_vertical.png
 INPUT ./img/o_vertical.png
+INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1000.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm0700.tfm
+INPUT /usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
+INPUT /usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT other/index.bbl
 INPUT other/index.bbl
 INPUT other/index.aux
@@ -219,6 +231,8 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb
