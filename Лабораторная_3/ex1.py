@@ -6,7 +6,7 @@ from pylab import *
 
 ex=[[1300,0.7],[1300,0.6],[1700,0.5],[1700,0.65]]
 # B=6.36*10**(-5)
-B=(0.186*10**-5)*0.342
+B=(1.86*10**-5)*cos(70*pi/180)
 L=0.163
 dU=62.6
 dK=0.001
@@ -17,7 +17,7 @@ i=0
 for element in ex:
 	U_a=element[0]
 	# print(U_a,B,L)
-	K=element[1]/100
+	K=element[1]/10
 	eta=(8*(K**2)*U_a)/((B**2)*(L**4))
 	# dS=(8/((B**2)*(L**4)))*sqrt((U_a*2*K*dK)**2+(K**2*dU)**2)
 	dEta=(2*dK)/(K)+(dU)/(U_a)*0.01
@@ -30,7 +30,7 @@ for element in ex:
 # print(summ/4)
 
 def function(K):
-	return (((B**2)*(L**4)*(1.75*(10**11)))/K**2)*1000
+	return (((B**2)*(L**4)*(1.74*(10**11)))/K**2)
 
 K=np.linspace(0.005, 0.01, 20) 
 

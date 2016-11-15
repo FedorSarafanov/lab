@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex other/index"] 1478722310 "other/index.aux" "other/index.bbl" "other/index" 1478722412
-  "./utf8gost705u.bst" 1351811510 30556 f199395139a406fa1bbc5650c70663f8 ""
+["bibtex other/index"] 1478878201 "other/index.aux" "other/index.bbl" "other/index" 1478970239
+  "/home/osabio/Документы/Лабораторные/Лабораторная_3/utf8gost705u.bst" 1351811510 30556 f199395139a406fa1bbc5650c70663f8 ""
   "biblio.bib" 1478635891 1276 521cda610a2b8319ea194df1d9670191 ""
-  "other/index.aux" 1478722411 11880 e505e01dda048eb84d72c34177fc9cdc ""
+  "other/index.aux" 1478878203 11918 b919ecf64e30db4f8dfbde3ffc72c386 ""
   "other/index.bcf" 0 -1 0 ""
   (generated)
-  "other/index.bbl"
   "other/index.blg"
-["pdflatex"] 1478722410 "index.tex" "other/index.pdf" "index" 1478722412
+  "other/index.bbl"
+["pdflatex"] 1478878201 "index.tex" "other/index.pdf" "index" 1478970239
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1465291798 3308 eee81981029f67083258db36df06e523 ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1465291801 3304 6a543c07045572737981351171e0505e ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1467578625 3312 d199be9bd555944e2403193d58a0256a ""
@@ -59,6 +59,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb" 1471317722 154599 ded6d7c21788a8930eadc7fef7518942 ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb" 1471317722 164227 3df942b4ff2124425d8fb1b6d3e01c7a ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1471317722 138258 6525c253f16cededa14c7fd0da7f67b2 ""
+  "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1471317722 145929 f25e56369a345c4ff583b067cd87ce8e ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1471317722 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb" 1471317722 131438 3aa300b3e40e5c8ba7b4e5c6cebc5dd6 ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1471317728 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -92,6 +93,7 @@
   "/usr/share/texmf-dist/tex/latex/base/inputenc.sty" 1471317724 4732 d63eda807ac82cca2ca8488efd31a966 ""
   "/usr/share/texmf-dist/tex/latex/base/size12.clo" 1471317724 8303 1d67e16498f00f63da792fab169302fc ""
   "/usr/share/texmf-dist/tex/latex/bosisio/envmath.sty" 1471317724 11612 12cc7e681cc8d3006c85c0b5dbf3910a ""
+  "/usr/share/texmf-dist/tex/latex/cases/cases.sty" 1476971573 7729 8bcdd4087d7eaedbd85077d2c722955e ""
   "/usr/share/texmf-dist/tex/latex/cmap/cmap.sty" 1471317724 2883 427a7f7cb58418a0394dbd85c80668f6 ""
   "/usr/share/texmf-dist/tex/latex/cmap/ot1.cmap" 1471317724 1207 4e0d96772f0d338847cbfb4eca683c81 ""
   "/usr/share/texmf-dist/tex/latex/cmap/t2a.cmap" 1471317724 1872 8a484407d6912048284390d9f7606e28 ""
@@ -142,14 +144,14 @@
   "img/o_horisontal.png" 1478549771 80782 8455eb967886b13104fa40246338dff4 ""
   "img/o_vertical.png" 1478611144 50412 f2551e0116089ad209bfa7269e120337 ""
   "img/otkl.png" 1478632408 63542 94fee57f1fd678b69b41fb21e7e82033 ""
-  "index.tex" 1478722408 29698 3f5b896262e3f5b72cb633739a875f15 ""
-  "other/index.aux" 1478722411 11880 e505e01dda048eb84d72c34177fc9cdc ""
-  "other/index.bbl" 1478722310 1471 971430c05779c2e52a11b0f11309fe80 "bibtex other/index"
-  "other/index.toc" 1478722411 4949 37b6f827976109959ede2140388372d2 ""
+  "index.tex" 1478878199 30112 7ce3c04b89fb7d994aec3beba0517d5e ""
+  "other/index.aux" 1478878203 11918 b919ecf64e30db4f8dfbde3ffc72c386 ""
+  "other/index.bbl" 1478878201 1471 971430c05779c2e52a11b0f11309fe80 "bibtex other/index"
+  "other/index.toc" 1478878203 4949 37b6f827976109959ede2140388372d2 ""
   (generated)
-  "other/index.out"
-  "other/index.aux"
   "other/index.log"
+  "other/index.aux"
+  "other/index.out"
+  "other/index.pdf"
   "other/index.toc"
   "other/index.sympy"
-  "other/index.pdf"

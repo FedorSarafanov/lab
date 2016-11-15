@@ -28,7 +28,9 @@ def delta_n(I1,I2):
 
 # Переменные
 def great(U_a,I,L,d,vert):
+# def __main():
 	print(U_a,'вольт')
+	# vert=0
 	# L=0.016 	# Длина пластин
 	# d=0.0055 	# Расстояние между пластинами
 	D=0.07		# Диаметр соленоида
@@ -64,10 +66,16 @@ def great(U_a,I,L,d,vert):
 	# R_=v_perp(tau)/omega
 
 	def v_y(t):
-		return eta*E/omega*(cos(omega*t)-1)
+		return (E/B)*(np.cos(omega*t)-1)
 
 	def v_x(t):
-		return eta*E/omega*(sin(omega*t))
+		return (E/B)*(np.sin(omega*t))
+
+	def y(t):
+		return (eta*E/omega**2)*(np.sin(omega*t)-omega*t)
+
+	def x(t):
+		return (eta*E/omega**2)*(1-np.cos(omega*t))		
 
 	def phi(t):
 		if vert:
@@ -75,47 +83,65 @@ def great(U_a,I,L,d,vert):
 		else:
 			return atan(abs(v_y(t))/v_x(t))
 
+	def alpha2(t):
+		if vert:
+			return (omega*t/2)
+		else:
+			return (pi/2-omega*t/2)
+
+	# tt=np.linspace(0,10*tau,20)
+
+	# print(alpha(tt))
+	# print(alpha2(tt))
 	if vert:
 		phi_0=pi/2-phi(tau)
 	else:
 		phi_0=pi-phi(tau)
 
-	print(atan(abs(v_x(tau))/abs(v_y(tau))))
+	# print(atan(abs(v_x(tau))/abs(v_y(tau))))
 
 	# print('Оборотов вне пластин, рад:',beta)
 	# print('Оборотов в пластинах без скрещенных полей, рад:',omega*tau)
 	# print('Оборотов в пластинах со скрещенными полями, рад:',phi_0)	
+	# print(alpha(tau))
+	# print(alpha2(tau))
+	# print(x(tau))
+	print('vert',vert)
+	# print(y(tau))
+	# print(v_x(tau))
+	# print(v_y(tau))	
+	print('Количество фокусировок, теория`: '+str((beta+alpha2(tau))/(2*pi)))
 	# return('Количество фокусировок, теория: '+str((beta+phi_0)/(2*pi)))
 
-print('Данные группы 2.')
-
+# print('Данные группы 2.')
+# __main()
 print(great(1200,0.6,0.014,0.006,0))
-# print(delta_n(0.6,1.14))
+print(delta_n(0.6,1.14))
 print('---------')
 print(great(1000,0.54,0.014,0.006,0))
-# print(delta_n(0.54,1.04))
+print(delta_n(0.54,1.04))
 print('---------')
 print(great(1000,0.5,0.016,0.0055,1))
-# print(delta_n(0.5,1.09))
+print(delta_n(0.5,1.09))
 print('---------')
 print(great(1100,0.46,0.016,0.0055,1))
-# print(delta_n(0.46,1.08))
+print(delta_n(0.46,1.08))
 print('---------')
 
-# print('Данные группы 3.')
+print('Данные группы 3.')
 
-# print(great(1000,31*0.02,0.016,0.0055,1))
-# print(delta_n(31*0.02,54*0.02))
-# print('---------')
+print(great(1000,31*0.02,0.016,0.0055,1))
+print(delta_n(31*0.02,54*0.02))
+print('---------')
 
-# print(great(850,31*0.02,0.016,0.0055,1))
-# print(delta_n(29*0.02,50.5*0.02))
-# print('---------')
+print(great(850,29*0.02,0.016,0.0055,1))
+print(delta_n(29*0.02,50.5*0.02))
+print('---------')
 
-# print(great(1300,31.5*0.02,0.014,0.006,0))
-# print(delta_n(31.5*0.02,54*0.02))
-# print('---------')
+print(great(1300,31.5*0.02,0.014,0.006,0))
+print(delta_n(31.5*0.02,54*0.02))
+print('---------')
 
-# print(great(1100,32*0.02,0.014,0.006,0))
-# print(delta_n(32*0.02,54*0.02))
-# print('---------')
+print(great(1100,32*0.02,0.014,0.006,0))
+print(delta_n(32*0.02,54*0.02))
+print('---------')

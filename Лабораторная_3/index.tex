@@ -9,6 +9,7 @@
 \newcommand{\labtheme}{Определение отношения заряда электрона к его массе}
 
 \usepackage{titlesec}
+\usepackage{cases}
 \newcommand{\sectionbreak}{\clearpage}
 
 \newcommand{\ddt}{$\ \pm\ 0.2\ \text{с}$}
@@ -215,8 +216,8 @@ $U_a$, В & $\alpha$, град & $h$, м & $\frac{e}{m}$ (СИ) & $\varepsilon{(
 
 На неком начальном участке пути, меньшем на порядок относительно длины трубки, пучок проходит сквозь отклоняющие пластины с напряженностью электрического поля $E=\frac{U_\text{откл}}{d}$, где $d$ --- расстояние между пластинами.
 
-Если пренебречь тем, что поля скрещенные, можно предположить, что в пластинах пучок приобретает произвольную скорость, лежащую в плоскость (XoY), перпендикулярной oZ. Ясно, что он будет закручиваться магнитным полем, а так как проекция начальной скорости $v_0z$ не изменилась, то
-его траектория будет представлять собой винтовую линию, нанесенную на цилиндр радиуса $R$, и электроны пучка будут двигаться по спирали и через время $nT=\tau$ пересекать ось oZ.
+Если пренебречь тем, что поля скрещенные, можно предположить, что в пластинах пучок приобретает произвольную скорость, лежащую в плоскости ($XY$), перпендикулярной $Z$. Ясно, что он будет закручиваться магнитным полем, а так как проекция начальной скорости $v_0z$ не изменилась, то
+его траектория будет представлять собой винтовую линию, нанесенную на цилиндр радиуса $R$, и электроны пучка будут двигаться по спирали и через время $nT=\tau$ пересекать ось $Z$.
 
 Обозначим $\eta=\frac{e}{m}$ и $\omega=\eta{}B_z$ (циклотронная частота). Тогда можем переписать формулу как
 
@@ -363,67 +364,70 @@ $1100$ & $0.46$ & $1.08$ & $1.74\cdot10^{11}$ & $1.02\cdot10^{10}$ & $0.74$ \\ \
 Обозначим $\omega=\eta{B}$. Учитывая, что $v_y=\frac{dy}{dt}$, $v_x=\frac{dx}{dt}$,  а $E=E_x$ и $B=B_z$, перепишем систему (\ref{ma_xyz}):
 
 \begin{equation}
-\label{dv}
- \begin{cases}
-   \frac{dv_x}{dt}=\eta{}E+\omega{}v_y\\
-   \frac{dv_y}{dt}=-\omega{}v_x\\
-   \frac{dv_z}{dt}=0\\
- \end{cases}
+\begin{cases}
+  \label{dv}
+   \frac{dv_x}{dt}=\eta{}E+\omega{}v_y 	\\
+   \frac{dv_y}{dt}=-\omega{}v_x			\\
+   \frac{dv_z}{dt}=0 
+\end{cases} 
 \end{equation}
 
-Решим дифференциальные уравнения:
-
+Продифференцируем $\frac{dv_x}{dt}$:
 \begin{gather}
-	\label{diff}
-	 dv_y=-\omega{}v_x{}dt\\
-	 \int dv_y=-\int\omega{}v_x{}dt\\
-	 v_y=-\omega{}v_x{}t+C
+	\label{diff_dvx}
+	\frac{d^2v_x}{dt^2}=\omega{}\frac{dv_y}{dt}
 \end{gather}
 
-Но по начальным условиям $v_y(t=0)=0,v_x(t=0)=0$. Тогда $C=0$. Подставим $v_y=-\omega{}v_x{}t$ в уравнение системы (\ref{dv}):
+И подставим значение $\frac{dv_y}{dt}$ из системы (\ref{dv}):%
+\begin{gather}
+	\label{eq:diff_dvx2}
+	\frac{d^2v_x}{dt^2}=-\omega^2{}v_x
+\end{gather}
 
+Полученное уравнение (\ref{eq:diff_dvx2}) является уравнением гармонического осциллятора и имеет известное решение:%
 \begin{equation}
-	\frac{dV_x}{dt}=\eta{}E-\omega^2{}x\\
+	v_x=A\cdot\sin{(\omega{t}+\phi_0)}
 \end{equation}
 
-Это уравнение является уравнением гармонического осциллятора и имеет известное решение:
+Где $A$ и $\phi_0$ -- неизвестные константы.
 
-\begin{equation}
-	x=A\cos{(\omega{t}+\phi_0)}+\frac{\eta{E}}{\omega^2}
-\end{equation}
+Решим первое уравнение системы (\ref{dv}): 
+\begin{gather}
+	\frac{dv_x}{dt}=\eta{}E+\omega{}v_y\\
+	\frac{dv_x}{dt}=A\omega\cdot\cos{(\omega{t}+\phi_0)}\\
+	A\omega\cdot\cos{(\omega{t}+\phi_0)}=\eta{}E+\omega{}v_y\\
+	v_y=A\cdot\cos{(\omega{t}+\phi_0)}-\frac{E}{B}
+\end{gather}
 
-\begin{equation}
-	\frac{dx}{dt}=-\omega{A}\sin{(\omega{t}+\phi_0)}
-\end{equation}
-
-Найдем $A$ и $\phi_0$ из начальных условий $v_x(t=0)=0, x(t=0)=0$:
+Найдем $A$ и $\phi_0$ из начальных условий $v_x({\text{\small t=0}})=0, v_y({\text{\small t=0}})=0$:
 
 \begin{equation}
 \label{Aphi}
  \begin{cases}
     \begin{cases}
-   		A\cos{(\omega{t}+\phi_0)}+\frac{\eta{E}}{\omega^2}=0\\
-   		-\omega{A}\sin{(\omega{t}+\phi_0)}=0
+   		A\cdot\sin{\phi_0}=0\\
+   		A\cdot\cos{\phi_0}-\frac{E}{B}=0
  	\end{cases}\\
  	A\geq0\\
  	0\leq\phi_0\leq\pi
  \end{cases}
 \end{equation}
 
-Решением (\ref{Aphi}) будет $\phi_0=\pi$ и $A=\eta\frac{E}{\omega^2}$. Тогда можем записать уравнение $x(t)$:
-
+Решением (\ref{Aphi}) будет $\phi_0=0$ и $A=\frac{E}{B}$. Тогда можем записать уравнения скоростей электрона в данной конфигурации скрещенных полей:
 \begin{gather}
-	\label{eq:x_t}
-	x(t)=\eta\frac{E}{\omega^2}(1-\cos{\omega{t}})\\
-	v_x(t)=-\omega{A}\sin{(\omega{t}+\phi_0)}=\eta\frac{E}{\omega}\sin{\omega{t}}=\frac{E}{B}\sin{\omega{t}}
+	\label{eq:v_t}
+	v_x=\frac{E}{B}\cdot\sin{\omega{t}}\\
+	v_y=\frac{E}{B}\cdot(\cos{\omega{t}}-1)
 \end{gather}
 
-Так как $\frac{dy}{dt}=-\omega{x}$, то $dy=-\omega\eta\frac{E}{\omega^2}(1-\cos{\omega{t}}){dt}$, и:
-
+Отсюда можем найти уравнения движения, проинтегрировав скорости:
 \begin{gather}
-	\label{eq:y_t}
-	y(t)=\eta\frac{E}{\omega^2}(\sin{\omega{t}}-\omega{t})\\
-	v_y(t)=\eta\frac{E}{\omega}(\cos\omega{t}-1)=\frac{E}{B}(\cos\omega{t}-1)
+	\label{eq:v_t}
+	\int\limits_0^{x(t)}v_x\,dt=\frac{E}{B}\int\limits_0^{t}\sin{\omega{t}}\,dt\\
+	x=-\frac{E}{\omega{B}}\cos{\omega{t}}\bigg|_0^t\\
+	x=\frac{E}{\omega{B}}(1-\cos{\omega{t}})\\
+	\int\limits_0^{y(t)}v_y\,dt=\frac{E}{B}\int\limits_0^{t}(\cos{\omega{t}}-1)\,dt\\
+	y=\frac{E}{\omega{B}}(\sin{\omega{t}}-\omega{t})
 \end{gather}
 
 Данные уравнения координат являются параметрическим уравнением частного случая трохоиды --- циклоиды: то есть в конфигурации скрещенных полей электрон движется по плоской траектории \cite{bellustin,arcimovich,andreev}.
@@ -476,7 +480,7 @@ $1100$ & $0.46$ & $1.08$ & $1.74\cdot10^{11}$ & $1.02\cdot10^{10}$ & $0.74$ \\ \
 \label{ris:vert_hor}
 \end{figure}
 
-Также отметим, что электрическое поле является низкочастотным, и за время пролета частицы в нем поле можно считать постоянным. Тогда применимы формулы (\ref{eq:x_t}$\div$\ref{eq:tg_a}).
+Также отметим, что электрическое поле является низкочастотным, и за время пролета частицы в нем поле можно считать постоянным. Тогда применимы формулы (\ref{eq:diff_dvx2}$\div$\ref{eq:tg_a}).
 
 Отсюда следует что угол, под которым вылетает электрон из скрещенных полей от текущего напряжения $E(\tau)$ на пластинах не зависит. 
 
