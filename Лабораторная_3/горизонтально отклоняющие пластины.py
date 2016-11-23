@@ -26,6 +26,11 @@ v0z=sqrt(eta*2*U_a)	# Скорость по вылете из пластин
 tau=L/v0z 			# Время пролета в пластинах
 E=U/d				# Напряженность в пластинах
 
+T=l/v0z
+tt=T
+
+print(omega*tt/2/pi)
+
 
 v0y=eta*E*tau		# Однородное электрическое поле: скорость по вылете
 R=v0y/omega			# Радиус оборота в однородном магнитном поле
@@ -51,13 +56,13 @@ def x_(t):
 
 # for t in [0, tau/2, tau]:
 # 	print(v_x(t),v_y(t),x(t),y(t))
-t=np.linspace(0,2*tau,100)
+# t=np.linspace(0,2*tau,100)
 
-plt.plot(x(t), y(t), label='parametric', alpha=0.7,color='blue')
-plt.plot(x(tau), y(tau), marker='^', alpha=0.7,color='blue')
-plt.plot(x_(t), -y_(t), alpha=0.7,color='red')
-plt.plot(x_(tau), -y_(tau), marker='^', alpha=0.7,color='red')
+# plt.plot(x(t), y(t), label='parametric', alpha=0.7,color='blue')
+# plt.plot(x(tau), y(tau), marker='^', alpha=0.7,color='blue')
+# plt.plot(x_(t), -y_(t), alpha=0.7,color='red')
+# plt.plot(x_(tau), -y_(tau), marker='^', alpha=0.7,color='red')
 
-# plt.plot(v_x(t), v_y(t), label='parametric', alpha=0.7,color='red')
+# # plt.plot(v_x(t), v_y(t), label='parametric', alpha=0.7,color='red')
 
-plt.show()
+# plt.show()

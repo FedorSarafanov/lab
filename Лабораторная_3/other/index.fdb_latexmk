@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex other/index"] 1478878201 "other/index.aux" "other/index.bbl" "other/index" 1478970239
+["bibtex other/index"] 1479364853 "other/index.aux" "other/index.bbl" "other/index" 1479364855
   "/home/osabio/Документы/Лабораторные/Лабораторная_3/utf8gost705u.bst" 1351811510 30556 f199395139a406fa1bbc5650c70663f8 ""
   "biblio.bib" 1478635891 1276 521cda610a2b8319ea194df1d9670191 ""
-  "other/index.aux" 1478878203 11918 b919ecf64e30db4f8dfbde3ffc72c386 ""
+  "other/index.aux" 1479364854 10189 3a11aabad23d8b082aca649abc91d6cc ""
   "other/index.bcf" 0 -1 0 ""
   (generated)
-  "other/index.blg"
   "other/index.bbl"
-["pdflatex"] 1478878201 "index.tex" "other/index.pdf" "index" 1478970239
+  "other/index.blg"
+["pdflatex"] 1479364853 "index.tex" "other/index.pdf" "index" 1479364855
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1465291798 3308 eee81981029f67083258db36df06e523 ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1465291801 3304 6a543c07045572737981351171e0505e ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1467578625 3312 d199be9bd555944e2403193d58a0256a ""
@@ -140,18 +140,16 @@
   "addons/lab-kol.tex" 1478610359 770 b3eb8c4febb941b3df4e8a8bd7318a59 ""
   "img/axes.png" 1478542571 13852 dd66de64742e822ed9e5c76f0d9be989 ""
   "img/chem.png" 1478623856 56402 6e96fa02f45d877933e7e8b5fd6e4735 ""
-  "img/figure_1.png" 1477547607 31342 7502320671d942f6163e37bea3e75706 ""
-  "img/o_horisontal.png" 1478549771 80782 8455eb967886b13104fa40246338dff4 ""
-  "img/o_vertical.png" 1478611144 50412 f2551e0116089ad209bfa7269e120337 ""
+  "img/figure_1.png" 1479359504 31941 e7a4a83ea42329f403c12c0f81397cbb ""
   "img/otkl.png" 1478632408 63542 94fee57f1fd678b69b41fb21e7e82033 ""
-  "index.tex" 1478878199 30112 7ce3c04b89fb7d994aec3beba0517d5e ""
-  "other/index.aux" 1478878203 11918 b919ecf64e30db4f8dfbde3ffc72c386 ""
-  "other/index.bbl" 1478878201 1471 971430c05779c2e52a11b0f11309fe80 "bibtex other/index"
-  "other/index.toc" 1478878203 4949 37b6f827976109959ede2140388372d2 ""
+  "index.tex" 1479364851 24801 e805c98418447eedfe98b7b225e7be47 ""
+  "other/index.aux" 1479364854 10189 3a11aabad23d8b082aca649abc91d6cc ""
+  "other/index.bbl" 1479364853 1471 971430c05779c2e52a11b0f11309fe80 "bibtex other/index"
+  "other/index.toc" 1479364854 4386 137e9d2ab400205990a576cf91ddf039 ""
   (generated)
   "other/index.log"
   "other/index.aux"
   "other/index.out"
-  "other/index.pdf"
-  "other/index.toc"
   "other/index.sympy"
+  "other/index.toc"
+  "other/index.pdf"

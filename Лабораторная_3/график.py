@@ -64,7 +64,7 @@ def y(t):
 	return	(eta*E/omega**2)*(np.sin(omega*t)-omega*t)
 		
 def x(t):
-	return	(eta*E/omega**2)*(1-np.cos(omega*t))	
+	return	-(eta*E/omega**2)*(1-np.cos(omega*t))	
 	 
 
 def z(t):

@@ -197,12 +197,6 @@ INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm
 INPUT img/axes.png
 INPUT ./img/axes.png
 INPUT ./img/axes.png
-INPUT img/o_horisontal.png
-INPUT ./img/o_horisontal.png
-INPUT ./img/o_horisontal.png
-INPUT img/o_vertical.png
-INPUT ./img/o_vertical.png
-INPUT ./img/o_vertical.png
 INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1000.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
