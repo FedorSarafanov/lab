@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1479922943 "index.tex" "other/index.pdf" "index" 1479922945
+["pdflatex"] 1480433695 "index.tex" "other/index.pdf" "index" 1480433697
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1465291798 3308 eee81981029f67083258db36df06e523 ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1465291801 3304 6a543c07045572737981351171e0505e ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1467578625 3312 d199be9bd555944e2403193d58a0256a ""
@@ -178,6 +178,7 @@
   "/usr/share/texmf-dist/tex/latex/tools/array.sty" 1471317725 12398 bd782945c489f84ff012bcea4a712d25 ""
   "/usr/share/texmf-dist/tex/latex/tools/enumerate.sty" 1471317725 3467 d39e40f25d5fd2b3b49a58d155063dd6 ""
   "/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty" 1471317725 1617 820bc46185ca5aeeda2ecc6c21866b18 ""
+  "/usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def" 1476971572 8033 ee5a06eead35a732222f876800c8f10f ""
   "/usr/share/texmf-dist/tex/latex/ucs/data/uni-33.def" 1476971572 8589 ed28b1c7dfc407d19d76bca04a0a8153 ""
   "/usr/share/texmf-dist/tex/latex/ucs/data/uni-4.def" 1476971572 8709 1d3e18d352cac8dfca3961538455774f ""
   "/usr/share/texmf-dist/tex/latex/ucs/data/uni-global.def" 1476971572 1375 8a855db83af5d6753ccbbd32e6a8a901 ""
@@ -193,15 +194,16 @@
   "addons/lab-kol.tex" 1475912920 770 b3eb8c4febb941b3df4e8a8bd7318a59 ""
   "addons/lab-titlepage.tex" 1479918332 659 7b71004de4843081d38a552b9a422d84 ""
   "experience/table.out" 1479834445 2373 ba2101654878e488f88a9e7494654853 ""
+  "img/chem.png" 1480432545 32722 8f9aaac98d308be8034bd6192e7d24a7 ""
   "img/lissajous3.png" 1479922801 322016 fd51a8980e83c42e4920b68bf6cfc2e3 ""
   "img/regions.tex" 1479918637 1430 305eb182605df7d1bf4fa7ad09c695eb ""
-  "index.tex" 1479922934 5703 eefa2c54ad5ad0db69c243637c4bc2a3 ""
-  "other/index.aux" 1479922944 3294 7ff78a87c7e83d6dad637b596bb3b3f4 ""
-  "other/index.out" 1479922944 1055 c3369f138aaef05f8a6eccd087eb0ef8 ""
-  "other/index.toc" 1479922944 1607 c0522c2eb62e72a2fa45cbff6855e474 ""
+  "index.tex" 1480433692 6249 84de4c26e36d2414fa626adde9a31cd1 ""
+  "other/index.aux" 1480433697 3898 2b629993282c0e3d02ce2df1c2f1bbfe ""
+  "other/index.out" 1480433697 1055 c3369f138aaef05f8a6eccd087eb0ef8 ""
+  "other/index.toc" 1480433697 1607 672f586fa7b579725786edd186d50112 ""
   (generated)
+  "other/index.log"
+  "other/index.toc"
   "other/index.aux"
   "other/index.pdf"
-  "other/index.toc"
-  "other/index.log"
   "other/index.out"
