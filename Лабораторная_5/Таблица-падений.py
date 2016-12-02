@@ -260,10 +260,10 @@ print(summ/15)
 # plot(ts_3-ts_3[0],hs_3, style, color="#c0392b", label='Сталь')
 # plot(ts_5-ts_5[0],hs_5, style, color="#2c3e50", label='Сталь')
 
-# plot(tp_1-tp_1[0],vp_1, color="blue", label='Пластмасса')
-# plot(tp_2-tp_2[0],vp_2, color="red", label='Пластмасса')
-# plot(tp_3-tp_3[0],vp_3, color="black", label='Пластмасса')
-# plot(tp_4-tp_4[0],vp_4, color="yellow", label='Пластмасса')
+plot(tp_1-tp_1[0],vp_1, color="blue", label='Пластмасса')
+plot(tp_2-tp_2[0],vp_2, color="red", label='Пластмасса')
+plot(tp_3-tp_3[0],vp_3, color="black", label='Пластмасса')
+plot(tp_4-tp_4[0],vp_4, color="yellow", label='Пластмасса')
 
 # plot(tp_6-tp_6[0],hp_6, 'o-', color="#f1c40f", label='Пластмасса')
 plot(tp_6-tp_6[0],vp_6, '-', color="#f1c40f", label='Пластмасса')
@@ -299,5 +299,5 @@ plot(ts_5-ts_5[0],vs_5, style, color="#2c3e50", label='Сталь')
 
 # xlim(0,1.5)   
 # ylim(0,10)        
-
-# show()
+savefig(r'two.png')
+show()
