@@ -21,22 +21,45 @@ freq=np.array([
     # (100,120,8),
     # (100,125,10),
 
-    (150,110,10),    
-    (150,115,9),
-    (150,120,7),
-    (150,125,6),
-    (150,130,4.5),
-    (150,135,3.5),
-    (150,140,2.5),
-    (150,145,1.5),
-    (150,155,2),
-    (150,160,3),
-    (150,165,4),
-    (150,170,4.5),
-    (150,175,5),
-    (150,180,6),
-    (150,185,6.5),
-    (150,190,7),
+    # (150,110,10),    
+    # (150,115,9),
+    # (150,120,7),
+    # (150,125,6),
+    # (150,130,4.5),
+    # (150,135,3.5),
+    # (150,140,2.5),
+    # (150,145,1.5),
+    # (150,155,2),
+    # (150,160,3),
+    # (150,165,4),
+    # (150,170,4.5),
+    # (150,175,5),
+    # (150,180,6),
+    # (150,185,6.5),
+    # (150,190,7),
+
+    # (10000,11000,3.5),
+    # (10000,10500,2),
+    # (10000,11500,4.5),
+    # (10000,12000,5.5),
+    # (10000,12500,6.5),         
+    # (10000,13000,7),
+    # (10000,13500,7.5),
+    # (10000,14000,8),
+    # # (10000,16000,10),
+    # (10000,9500,4),
+    # (10000,9300,5),
+    (1000,1050,3),
+    (1000,1100,4),
+    (1000,1150,5),
+    (1000,1200,6),
+    (1000,1250,7),         
+    (1000,1300,8),
+    (1000,1350,9),
+    (1000,1400,10),
+    # (10000,16000,10),
+    (1000,950,3),
+    (1000,900,5),
     ])
 
 sw,sig,lock=freq.T
@@ -70,14 +93,16 @@ from math import *
 
 dA=0.25
 def dFreq(freq):
-    return 0.02*(2+50/freq)
+    return 0.02*(2+50/abs(freq))
 
 def df(sweep_freq,signal_freq,locking_A):
-    ddf=(dFreq(sweep_freq)+dFreq(signal_freq))/(signal_freq - sweep_freq)+dA/locking_A
-    eff_freq=(signal_freq - sweep_freq)/ sweep_freq
+    ddf=(dFreq(sweep_freq)+dFreq(signal_freq))/abs(signal_freq - sweep_freq)+dA/locking_A
+    print(dA/locking_A)
+    eff_freq=abs(signal_freq - sweep_freq)/ sweep_freq
+    # print(eff_freq,abs(eff_freq)*ddf)
     return(eff_freq*ddf)
 
-fout = open("table.out", "wt")
+fout = open("experience/table_1k_points.out", "wt")
 # fout2 = open("sin2.table", "wt")
 
 for point in freq:
@@ -101,10 +126,11 @@ for point in freq:
     y=eff_freq*20/Scale
     y_t=(eff_freq+df(sweep_freq,signal_freq,locking_A))*20/Scale
     y_b=(eff_freq-df(sweep_freq,signal_freq,locking_A))*20/Scale
-    print( r"\draw[pattern=north west lines, pattern color=%s] (%.4f,%.4f) rectangle (%.4f,%.4f);" % ("blue", x_l,y_b, x_r, y_t)  ,end="\n", file=fout)
-    print( r"\filldraw[%s] (%.4f,%.4f) circle(\Radius);" % ("\Color", x, y)  ,end="\n", file=fout)
+    # print( r"\draw[pattern=north west lines, pattern color=%s] (%.4f,%.4f) rectangle (%.4f,%.4f);" % ("blue", x_l,y_b, x_r, y_t)  ,end="\n", file=fout)
+    # print( r"\filldraw[%s] (%.4f,%.4f) circle(\Radius);" % ("\Color", x, y)  ,end="\n", file=fout)
     # print( r"%% \filldraw[black] (%.4f,%.4f) circle(0.03);" % (locking_A, eff_freq)  ,end="\n", file=fout)
-    # print("%.4f %.4f" % (locking_A, eff_freq) ,end="\n", file=fout)
+    
+    print(r"    (%.4f, %.4f) --" % (x, y) ,end="\n", file=fout)
     # print("%.4f %.4f" % (locking_A/2, eff_freq*5) ,end="\n", file=fout2)
     # print( r"\filldraw[%s] (%.4f,%.4f) circle(0.03);" % (clr, locking_A*1.5/Scale, eff_freq*20*1.5/Scale)  ,end="\n")
 

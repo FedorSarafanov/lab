@@ -1,2 +1,5 @@
 {
+	"settings": {
+        "TEXroot": "index.tex"
+    }
 }
