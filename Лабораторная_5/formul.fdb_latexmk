@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1481486522 "formul.tex" "formul.pdf" "formul" 1481486523
+["pdflatex"] 1481487315 "formul.tex" "formul.pdf" "formul" 1481487316
   "/home/lab/.texlive/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk" 1481464230 45148 88823ec653bb14a66987ea9f57e56e62 ""
   "/home/lab/.texlive/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lacc1095.600pk" 1481464226 26368 1457cfe8a6071bce0843244960cd7e0f ""
   "/home/lab/.texlive/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk" 1481465194 13984 99ad3341b94213f444ce6bf596bfdbc3 ""
@@ -211,11 +211,11 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1480784818 7252863 2f1e3432e6d7c5bf74a5578ffece065c ""
   "addons/lab-kol.tex" 1481463454 770 b3eb8c4febb941b3df4e8a8bd7318a59 ""
   "addons/lab-titlepage.tex" 1481463454 661 b301723ff060207f1c70a69ee95ac045 ""
-  "formul.aux" 1481486523 920 2f9e575c410f337b855412d9c1227592 ""
-  "formul.out" 1481486523 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "formul.tex" 1481486522 5133 b8587b9d1ce130aa34c41a926beac660 ""
+  "formul.aux" 1481487316 920 2f9e575c410f337b855412d9c1227592 ""
+  "formul.out" 1481487316 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "formul.tex" 1481487312 5133 d967a4a0283946ee379a12182b4d2ed7 ""
   (generated)
-  "formul.pdf"
   "formul.aux"
   "formul.log"
   "formul.out"
+  "formul.pdf"
