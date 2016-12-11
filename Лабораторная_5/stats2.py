@@ -14,8 +14,8 @@ def divide(a,b):
 
 hp_1,tp_1=np.array([
     (0, 7.219),
-    (5, 8.011), 
-    (10,8.703),
+    (5, 8.001), 
+    (10,8.713),
     (15,9.428),
     (20,10.096),
     (25,10.829),
@@ -183,7 +183,41 @@ hs_5,ts_5=np.array([
     (70,9.296)
     ]).T
 
-style="-"
+glb=globals()
+
+plastic=[1,2,3,4,6]
+steel=[1,2,3,5]
+
+for i in  plastic:
+    glb['tp_'+str(i)]=glb['tp_'+str(i)]-glb['tp_'+str(i)][0]
+    # glb['vp_'+str(i)]=devide(glb['tp_'+str(i)]-glb['tp_'+str(i)][0])
+
+for i in steel:
+    glb['ts_'+str(i)]=glb['ts_'+str(i)]-glb['ts_'+str(i)][0]
+
+vp_1=divide(hp_1,(tp_1))
+vp_2=divide(hp_2,(tp_2))
+vp_3=divide(hp_3,(tp_3))
+vp_4=divide(hp_4,(tp_4))
+vp_6=divide(hp_6,(tp_6))
+
+plot(tp_1,vp_1, '-', color="#2c3e50", label='Пластмасса')
+
+vp_1v=np.zeros(len(hp_1))
+tp_1t=np.zeros(len(hp_1))
+hp_1h=np.zeros(len(hp_1))
+for i in range(1,len(hp_1)):
+    dh=hp_1[i]-hp_1[i-1]
+    dt=tp_1[i]-tp_1[i-1]
+    tp_1t[i]=dt
+    hp_1h[i]=dh
+    vp_1v[i]=(dh/dt)
+
+vs_1=divide(hs_1,(ts_1))
+vs_2=divide(hs_2,(ts_2))
+vs_3=divide(hs_3,(ts_3))
+vs_5=divide(hs_5,(ts_5))
+
 
 def v(t,pl,eta):
     pass
@@ -207,20 +241,13 @@ def v(t,pl,eta):
     a=2.72**(-6*pi*eta*t*r/m)
     return 2/9*g*(r**2)*(rho-rho_sr)/eta*(1-a)*(1/(1+2.45*r/R))
 
-vp_1=divide(hp_1,(tp_1-tp_1[0]))
-vp_2=divide(hp_2,(tp_2-tp_2[0]))
-vp_3=divide(hp_3,(tp_3-tp_3[0]))
-vp_4=divide(hp_4,(tp_4-tp_4[0]))
 
-vp_6=divide(hp_6,(tp_6-tp_6[0]))
 
-vs_1=divide(hs_1,(ts_1-ts_1[0]))
-vs_2=divide(hs_2,(ts_2-ts_2[0]))
-vs_3=divide(hs_3,(ts_3-ts_3[0]))
-vs_5=divide(hs_5,(ts_5-ts_5[0]))
+style="-"
 
-# t=np.linspace(0,12,1000)
-# plot(t,v(t, 1,2.13),'--',color='black', lw=2)
+t=np.linspace(0,12,1000)
+plot(t,v(t, 1,2.17),'--',color='black', lw=2)
+# axhline(y=np.median(vp_1[1:-1]))
 # plot(t,v(t, 0,2.55),'--',color='blue', lw=2)
 #{1+2.4\frac{r}{R}}
 # \eta=\frac{2}{9}r^2g\frac{\rho_\text{ш}-\rho_\text{ср}}{v}\cdot\frac{1}
@@ -248,40 +275,53 @@ vs_5=divide(hs_5,(ts_5-ts_5[0]))
 # print(summ/15)
 
 
-# plot(tp_1-tp_1[0],hp_1, color="blue", label='Пластмасса')
-# plot(tp_2-tp_2[0],hp_2, color="red", label='Пластмасса')
-# plot(tp_3-tp_3[0],hp_3, color="black", label='Пластмасса')
-# plot(tp_4-tp_4[0],hp_4, color="yellow", label='Пластмасса')
+# plot(tp_1,hp_1, color="blue", label='Пластмасса')
+# plot(tp_2,hp_2, color="red", label='Пластмасса')
+# plot(tp_3,hp_3, color="black", label='Пластмасса')
+# plot(tp_4,hp_4, color="yellow", label='Пластмасса')
 
-# plot(tp_6-tp_6[0],hp_6, 'o-', color="#f1c40f", label='Пластмасса')
+# plot(tp_6,hp_6, 'o-', color="#f1c40f", label='Пластмасса')
 
-# plot(ts_1-ts_1[0],hs_1, style, color="#1abc9c", label='Сталь')
-# plot(ts_2-ts_2[0],hs_2, style, color="#f1c40f", label='Сталь')
-# plot(ts_3-ts_3[0],hs_3, style, color="#c0392b", label='Сталь')
-# plot(ts_5-ts_5[0],hs_5, style, color="#2c3e50", label='Сталь')
+# plot(ts_1,hs_1, style, color="#1abc9c", label='Сталь')
+# plot(ts_2,hs_2, style, color="#f1c40f", label='Сталь')
+# plot(ts_3,hs_3, style, color="#c0392b", label='Сталь')
+# plot(ts_5,hs_5, style, color="#2c3e50", label='Сталь')
+vp_1e=np.zeros(len(hp_1))
+dt=1/20
+dh=0.25
 
-# plot(tp_1-tp_1[0],vp_1, color="blue", label='Пластмасса')
-# plot(tp_2-tp_2[0],vp_2, color="red", label='Пластмасса')
-# plot(tp_3-tp_3[0],vp_3, color="black", label='Пластмасса')
-# plot(tp_4-tp_4[0],vp_4, color="yellow", label='Пластмасса')
+for i in range(1,len(hp_1)):
+    vp_1e[i]=(dt*hp_1h[i]+dh*tp_1t[i])/tp_1t[i]**2
+print(vp_1e)
+# plot(tp_1,vp_1v, '-', color="#2c3e50", label='Пластмасса')
+# errorbar(tp_1, vp_1v, yerr=vp_1e, xerr=dt, fmt='o')
 
-# # plot(tp_6-tp_6[0],hp_6, 'o-', color="#f1c40f", label='Пластмасса')
-# plot(tp_6-tp_6[0],vp_6, '-', color="#f1c40f", label='Пластмасса')
+for i in range(1,len(hp_1)):
+    vp_1e[i]=(dt*hp_1[i]+dh*tp_1[i])/tp_1[i]**2
+print(vp_1e)
+plot(tp_1,vp_1, '-', color="#2c3e50", label='Пластмасса')
+errorbar(tp_1, vp_1, yerr=vp_1e, xerr=dt, fmt='o')
+# plot(tp_2,vp_2, color="red", label='Пластмасса')
+# plot(tp_3,vp_3, color="black", label='Пластмасса')
+# plot(tp_4,vp_4, color="yellow", label='Пластмасса')
+
+# # plot(tp_6,hp_6, 'o-', color="#f1c40f", label='Пластмасса')
+# plot(tp_6,vp_6, '-', color="#f1c40f", label='Пластмасса')
 
 
-# plot(ts_1-ts_1[0],vs_1, style, color="#1abc9c", label='Сталь')
-# plot(ts_2-ts_2[0],vs_2, style, color="#f1c40f", label='Сталь')
-# plot(ts_3-ts_3[0],vs_3, style, color="#c0392b", label='Сталь')
-# plot(ts_5-ts_5[0],vs_5, style, color="#2c3e50", label='Сталь')
+# plot(ts_1,vs_1, style, color="#1abc9c", label='Сталь')
+# plot(ts_2,vs_2, style, color="#f1c40f", label='Сталь')
+# plot(ts_3,vs_3, style, color="#c0392b", label='Сталь')
+# plot(ts_5,vs_5, style, color="#2c3e50", label='Сталь')
 
-# func = UnivariateSpline( hs_5, ts_5-ts_5[0], k=1)
+# func = UnivariateSpline( hs_5, ts_5, k=1)
 # x=np.linspace(0,70,10)
 # y = func(x)
 # plot( y, x, "--", color='black')  
 
 # plot([0,ts_5[-1]-ts_5[0]],[0,hs_5[-1]], style, color="red", label='Сталь')
 
-# plot(ts_4-ts_4[0],hs_4, style, color="yellow", label='Сталь')
+# plot(ts_4,hs_4, style, color="yellow", label='Сталь')
 # legend(loc=0)
 # grid(True)
 
@@ -297,26 +337,13 @@ vs_5=divide(hs_5,(ts_5-ts_5[0]))
 # xlabel(r'$t$, с')
 # ylabel(r'$h$, см')
 
-# xlim(0,1.5)   
-# ylim(0,10)    
+xlim(0,10.7)   
+ylim(0,9)    
 
 
 # savefig(r'two.png')
-# show()
+show()
 
-tp_1=tp_1-tp_1[0]
-tp_2=tp_2-tp_2[0]
-tp_3=tp_3-tp_3[0]
-tp_4=tp_4-tp_4[0]
-# tp_5=tp_5-tp_5[0]
-# tp_6=tp_6-tp_6[0]
-
-ts_1=ts_1-ts_1[0]
-ts_2=ts_2-ts_2[0]
-ts_3=ts_3-ts_3[0]
-# ts_4=ts_4-ts_4[0]
-ts_5=ts_5-ts_5[0]
-# ts_6=ts_6-ts_6[0]
 
 def writecsv():
     with open('experience/pl1.csv', 'w') as csvfile:

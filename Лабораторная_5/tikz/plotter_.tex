@@ -21,20 +21,28 @@
 \begin{document}
  
 \ifdef{\file}{}{\def\file{../experience/st1.csv}}
-\ifdef{\Ystep}{}{\def\Ystep{0.75}}
-\ifdef{\Xstep}{}{\def\Xstep{1/5}}
-\ifdef{\Yi}{}{\def\Yi{2}}
-\ifdef{\Yii}{}{\def\Yii{4}}
-\ifdef{\Yn}{}{\def\Yn{10}}
-\ifdef{\Xerr}{}{\def\Xerr{0.5}}
-\ifdef{\Yerr}{}{\def\Yerr{1/25}}
+\ifdef{\Xstep}{}{\def\Xstep{3.5}}
+\ifdef{\Ystep}{}{\def\Ystep{1/10}}
+\ifdef{\Yi}{}{\def\Yi{10}}
+\ifdef{\Yii}{}{\def\Yii{20}}
+\ifdef{\Yn}{}{\def\Yn{70}}
+
+\ifdef{\XIo}{}{\def\XIo{1}}
+\ifdef{\XIIo}{}{\def\XIIo{2}}
+\ifdef{\XNo}{}{\def\XNo{4}}
+
+\ifdef{\Xerr}{}{\def\Xerr{1/20}}
+\ifdef{\Yerr}{}{\def\Yerr{1}}
+
+\ifdef{\xvar}{}{\def\xvar{t}}
+\ifdef{\yvar}{}{\def\yvar{s}}
 
 \ifdef{\pht}{}{\def\pht{7.7}}
 \ifdef{\phb}{}{\def\phb{0}}
 \ifdef{\pwr}{}{\def\pwr{14.2}}
 \ifdef{\pwl}{}{\def\pwl{0}}
-\ifdef{\xlabel}{}{\def\xlabel{$S$, см}}
-\ifdef{\ylabel}{}{\def\ylabel{$t$, с}}
+\ifdef{\ylabel}{}{\def\ylabel{$S$, см}}
+\ifdef{\xlabel}{}{\def\xlabel{$t$, с}}
 
 
 \begin{tikzpicture}
@@ -62,7 +70,7 @@
 	\node[anchor=north east] at (0,0) {\scalebox{1.5}{0}};
 
 
-	\foreach \x in {5,10,...,70} {
+	\foreach \x in {\XIo,\XIIo,...,\XNo} {
 		\draw (\x*\Xstep,0.05) -- (\x*\Xstep,-0.05);
 		\draw (\x*\Xstep,0) node[anchor=north] {\scalebox{1.5}{$\x$}};
 	}
@@ -73,15 +81,15 @@
 	}
 
 
-	\csvreader[ head to column names,%
-                late after head=\xdef\xold{\s}\xdef\yold{\t},%
+	\csvreader[ %head to column names,%
+                late after head=\xdef\xold{\t}\xdef\yold{\s},%
                 after line=\xdef\xold{\X}\xdef\yold{\Y},%
                 filter={\value{csvrow}>-1},%
                 ]%
-                {\file}{}%
+                {\file}{\xvar=\t,\yvar=\s}%
     {
-		\pgfmathsetmacro{\X}{\s*\Xstep}%
-		\pgfmathsetmacro{\Y}{\t*\Ystep}%
+		\pgfmathsetmacro{\Y}{\s*\Ystep}%
+		\pgfmathsetmacro{\X}{\t*\Xstep}%
 
 		\pgfmathsetmacro{\xerr}{\Xerr*\Xstep}%
 		\pgfmathsetmacro{\yerr}{\Yerr*\Ystep}%

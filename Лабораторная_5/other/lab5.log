@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.12.8)  11 DEC 2016 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.12.8)  11 DEC 2016 13:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -896,17 +896,17 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 56.
- (./tikz/plotter.tex<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+ (./tikz/plotter_.tex<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) (./tikz/plotter.tex)
-(./tikz/plotter.tex)
+)) (./tikz/plotter_.tex)
+(./tikz/plotter_.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -914,19 +914,68 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 
-      [1] (./tikz/plotter.tex) (./tikz/plotter.tex)
+l.70 }
+       [1pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.70 }
+      ] (./tikz/plotter_.tex)
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 71.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 71.
+ [2pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.71 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.71 
+     ] (./tikz/plotter_.tex) (./tikz/plotter_.tex) (./tikz/plotter_.tex)
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 81.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 81.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 81.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 81.
+
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.81 }
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.81 }
+      ] (./tikz/plotter_.tex)
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 82.
 Package babel Info: Redefining russian shorthand "~
@@ -935,43 +984,75 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 82.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 82.
- [2]
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 
+     ] (./tikz/plotter_.tex) (./tikz/plotter_.tex
+Overfull \hbox (2.41554pt too wide) in paragraph at lines 101--102
+[][] 
+ []
+
+)
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 83.
- [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+(babel)             in language  on input line 102.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.102 
+      ]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 104.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 104.
+ [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
  (other/lab5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
 Package rerunfilecheck Info: File `lab5.out' has not changed.
-(rerunfilecheck)             Checksum: C132A472A9803957A517D4B077FA11B2;291.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
+(rerunfilecheck)             Checksum: 92C4B3E3FF14DB2E708AE4058C57506E;187.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 25387 strings out of 493013
- 450467 string characters out of 6139317
- 590995 words of memory out of 5000000
- 28433 multiletter control sequences out of 15000+600000
+ 25685 strings out of 493013
+ 456268 string characters out of 6139317
+ 611644 words of memory out of 5000000
+ 28707 multiletter control sequences out of 15000+600000
  12410 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,65p,909b,732s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,11n,65p,909b,784s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public
 /cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1
 095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on other/lab5.pdf (4 pages, 90614 bytes).
+Output written on other/lab5.pdf (7 pages, 108531 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

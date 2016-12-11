@@ -53,31 +53,52 @@
 
 % \tableofcontents
 % \newpage
-\section{Описание лабораторной установки}
+\section{Снятая зависимость}
+
+\def\plastic{\def\Xstep{5/4}\def\XIo{1}\def\XIIo{2}\def\XNo{10}%
+\includestandalone{tikz/plotter_.tex}}
+
+\def\steel{\includestandalone{tikz/plotter_.tex}}
+
+\def\includecsv[#1]#2{\def\file{#1}#2}
+
+\foreach \i in {1,2,3,4} {
+	\begin{figure}[H]
+		\includecsv[../experience/pl\i.csv]{\plastic}
+		\caption{Пластмасса - опыт \i}
+	\end{figure}
+}
+
+\foreach \i in {1,2,3,5} {
+	\begin{figure}[H]
+		\includecsv[../experience/st\i.csv]{\steel}
+		\if\i5%
+			\caption{Пластмасса - опыт 4}
+		\else%
+			\caption{Пластмасса - опыт \i}
+		\fi		
+	\end{figure}
+}
+
 
 \begin{figure}[H]
-\def\file{../experience/pl1.csv}
-\includestandalone{tikz/plotter.tex}
+	\def\yvar{v}
+	\def\Yi{3}\def\Yii{6}\def\Yn{21}\def\Ystep{1/3}
+	\def\ylabel{$v$, см/c}
+	\includecsv[../experience/st1.csv]{\steel}	
 \end{figure}
 
 \begin{figure}[H]
-\def\file{../experience/pl2.csv}
-\includestandalone{tikz/plotter.tex}
+	\def\yvar{v}
+	\def\xvar{s}
+	\def\Xerr{1}
+	\def\Yerr{1}
+	\def\Yi{3}\def\Yii{6}\def\Yn{21}\def\Ystep{1/3}
+	\def\Xstep{1/5}\def\XIo{10}\def\XIIo{20}\def\XNo{70}
+	\def\ylabel{$v$, см/c}
+	\def\xlabel{$S$, см}
+	\includecsv[../experience/st5.csv]{\steel}	
 \end{figure}
 
-\begin{figure}[H]
-\def\file{../experience/pl3.csv}
-\includestandalone{tikz/plotter.tex}
-\end{figure}
-
-\begin{figure}[H]
-\def\file{../experience/pl4.csv}
-\includestandalone{tikz/plotter.tex}
-\end{figure}
-
-\begin{figure}[H]
-\def\file{../experience/st1.csv}
-\includestandalone{tikz/plotter.tex}
-\end{figure}
 
 \end{document}
