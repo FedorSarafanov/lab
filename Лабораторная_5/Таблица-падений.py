@@ -3,6 +3,7 @@
 import numpy as np
 from pylab import * 
 from scipy.interpolate import UnivariateSpline
+import csv
 
 def divide(a,b):
     with np.errstate(divide='ignore', invalid='ignore'):
@@ -221,33 +222,35 @@ vs_2=divide(hs_2,(ts_2-ts_2[0]))
 vs_3=divide(hs_3,(ts_3-ts_3[0]))
 vs_5=divide(hs_5,(ts_5-ts_5[0]))
 
-t=np.linspace(0,12,1000)
-plot(t,v(t, 1,2.13),'--',color='black', lw=2)
-plot(t,v(t, 0,2.55),'--',color='blue', lw=2)
+# t=np.linspace(0,12,1000)
+# plot(t,v(t, 1,2.13),'--',color='black', lw=2)
+# plot(t,v(t, 0,2.55),'--',color='blue', lw=2)
 #{1+2.4\frac{r}{R}}
 # \eta=\frac{2}{9}r^2g\frac{\rho_\text{ш}-\rho_\text{ср}}{v}\cdot\frac{1}
 
-def k(d,v,pl):
-    r=(d/2)/10
-    R=4.63
-    rho_pl=0.24/(4/3*pi*r**3)
-    rho_st=0.265/(4/3*pi*r**3)
-    rho_sr=1.26
-    # print(pl,r/R)
-    if pl:
-        rho=rho_pl
-    else:
-        rho=rho_st
-    # print(v)
-    return 2/9*981*(r**2)*(rho-rho_sr)/v
-summ=0
-for i in range(1,15):
-    a=(k(5.95,vp_1[i],1))
-    c=(k(4,vs_2[i],0))
-    b=a/c*2.13/2.55
-    d=-(50*(-1 + b))/(-217 + 318*b)
-    summ+=abs(d)
-print(summ/15)
+# def k(d,v,pl):
+#     r=(d/2)/10
+#     R=4.63
+#     rho_pl=0.24/(4/3*pi*r**3)
+#     rho_st=0.265/(4/3*pi*r**3)
+#     rho_sr=1.26
+#     # print(pl,r/R)
+#     if pl:
+#         rho=rho_pl
+#     else:
+#         rho=rho_st
+#     # print(v)
+#     return 2/9*981*(r**2)*(rho-rho_sr)/v
+# summ=0
+# for i in range(1,15):
+#     a=(k(5.95,vp_1[i],1))
+#     c=(k(4,vs_2[i],0))
+#     b=a/c*2.13/2.55
+#     d=-(50*(-1 + b))/(-217 + 318*b)
+#     summ+=abs(d)
+# print(summ/15)
+
+
 # plot(tp_1-tp_1[0],hp_1, color="blue", label='Пластмасса')
 # plot(tp_2-tp_2[0],hp_2, color="red", label='Пластмасса')
 # plot(tp_3-tp_3[0],hp_3, color="black", label='Пластмасса')
@@ -260,19 +263,19 @@ print(summ/15)
 # plot(ts_3-ts_3[0],hs_3, style, color="#c0392b", label='Сталь')
 # plot(ts_5-ts_5[0],hs_5, style, color="#2c3e50", label='Сталь')
 
-plot(tp_1-tp_1[0],vp_1, color="blue", label='Пластмасса')
-plot(tp_2-tp_2[0],vp_2, color="red", label='Пластмасса')
-plot(tp_3-tp_3[0],vp_3, color="black", label='Пластмасса')
-plot(tp_4-tp_4[0],vp_4, color="yellow", label='Пластмасса')
+# plot(tp_1-tp_1[0],vp_1, color="blue", label='Пластмасса')
+# plot(tp_2-tp_2[0],vp_2, color="red", label='Пластмасса')
+# plot(tp_3-tp_3[0],vp_3, color="black", label='Пластмасса')
+# plot(tp_4-tp_4[0],vp_4, color="yellow", label='Пластмасса')
 
-# plot(tp_6-tp_6[0],hp_6, 'o-', color="#f1c40f", label='Пластмасса')
-plot(tp_6-tp_6[0],vp_6, '-', color="#f1c40f", label='Пластмасса')
+# # plot(tp_6-tp_6[0],hp_6, 'o-', color="#f1c40f", label='Пластмасса')
+# plot(tp_6-tp_6[0],vp_6, '-', color="#f1c40f", label='Пластмасса')
 
 
-plot(ts_1-ts_1[0],vs_1, style, color="#1abc9c", label='Сталь')
-plot(ts_2-ts_2[0],vs_2, style, color="#f1c40f", label='Сталь')
-plot(ts_3-ts_3[0],vs_3, style, color="#c0392b", label='Сталь')
-plot(ts_5-ts_5[0],vs_5, style, color="#2c3e50", label='Сталь')
+# plot(ts_1-ts_1[0],vs_1, style, color="#1abc9c", label='Сталь')
+# plot(ts_2-ts_2[0],vs_2, style, color="#f1c40f", label='Сталь')
+# plot(ts_3-ts_3[0],vs_3, style, color="#c0392b", label='Сталь')
+# plot(ts_5-ts_5[0],vs_5, style, color="#2c3e50", label='Сталь')
 
 # func = UnivariateSpline( hs_5, ts_5-ts_5[0], k=1)
 # x=np.linspace(0,70,10)
@@ -298,6 +301,67 @@ plot(ts_5-ts_5[0],vs_5, style, color="#2c3e50", label='Сталь')
 # ylabel(r'$h$, см')
 
 # xlim(0,1.5)   
-# ylim(0,10)        
-savefig(r'two.png')
-show()
+# ylim(0,10)    
+
+
+# savefig(r'two.png')
+# show()
+
+tp_1=tp_1-tp_1[0]
+tp_2=tp_2-tp_2[0]
+tp_3=tp_3-tp_3[0]
+tp_4=tp_4-tp_4[0]
+# tp_5=tp_5-tp_5[0]
+# tp_6=tp_6-tp_6[0]
+
+ts_1=ts_1-ts_1[0]
+ts_2=ts_2-ts_2[0]
+ts_3=ts_3-ts_3[0]
+# ts_4=ts_4-ts_4[0]
+ts_5=ts_5-ts_5[0]
+# ts_6=ts_6-ts_6[0]
+
+
+
+with open('experience/pl1.csv', 'w') as csvfile:
+    fieldnames = ['s', 't']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    for i in range(0,len(hp_1)):
+        writer.writerow({'s': hp_1[i], 't': tp_1[i]})
+
+
+
+with open('experience/pl2.csv', 'w') as csvfile:
+    fieldnames = ['s', 't']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    for i in range(0,len(hp_2)):
+        writer.writerow({'s': hp_2[i], 't': tp_2[i]})
+
+
+
+with open('experience/pl3.csv', 'w') as csvfile:
+    fieldnames = ['s', 't']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    for i in range(0,len(hp_3)):
+        writer.writerow({'s': hp_3[i], 't': tp_3[i]})
+
+
+
+with open('experience/pl4.csv', 'w') as csvfile:
+    fieldnames = ['s', 't']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    for i in range(0,len(hp_4)):
+        writer.writerow({'s': hp_4[i], 't': tp_4[i]})
+
+
+
+with open('experience/st1.csv', 'w') as csvfile:
+    fieldnames = ['s', 't']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    for i in range(0,len(hs_1)):
+        writer.writerow({'s': hs_1[i], 't': ts_1[i]})

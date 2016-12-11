@@ -33,24 +33,20 @@
 \input{addons/lab-kol} % колинтулы на страницах
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{float}
-
-\usepackage{siunitx}
+\usepackage[mode=buildnew]{standalone}
 \usepackage{tikz} 
-\usepackage{pgfplots}
-\usepackage{filecontents}
-\pgfplotsset{compat=newest} % Allows to place the legend below plot
 
-\usepgfplotslibrary{units} % Allows to enter the units nicely
-
-\begin{filecontents*}{data.csv}
-a,b,c,d
-1,4,5,1
-2,3,1,5
-3,5,6,1
-4,1,4,9
-55,3,4,7
-\end{filecontents*}
-
+\usepackage{tikz,csvsimple}
+\usetikzlibrary{scopes}
+\usetikzlibrary{%
+     decorations.pathreplacing,%
+     decorations.pathmorphing,%
+    patterns,%
+    calc,%
+    scopes,%
+    arrows,%
+    % arrows.spaced,%
+}
 \begin{document}
 
 \input{addons/lab-titlepage}
@@ -59,37 +55,29 @@ a,b,c,d
 % \newpage
 \section{Описание лабораторной установки}
 
-ssdsdfdf
-\begin{figure}[tb]
-	\centering
-	\begin{tikzpicture}
-		% \centering
-		\begin{axis}[%change x base,
-			width=\linewidth, % Scale the plot to \linewidth
-			grid=both, 
-			grid style={line width=.1pt, draw=gray!10},
-			major grid style={line width=.2pt,draw=gray!50},
-			minor tick num=10,
-			% scaled ticks=false,
-			% unit vector ratio={1 4},
-			% axis equal,			
-			xlabel=$U$, % Set the labels
-			ylabel=$I$,
-			x unit=\si{\volt}, % Set the respective units
-			y unit=\text{А},
-			xtick distance=1cm,
-			ytick distance=1cm,
-			legend style={at={(0.5,-0.2)},anchor=north},
-			x tick label style={rotate=90,anchor=east}
-		]
-		\addplot table[x=a,y=b,col sep=comma] {data.csv}; 
-				\draw (0,0)--(4,0);
-		% \legend{Plot}
-		\end{axis}
-	\end{tikzpicture}
-	\caption{Caption here}
-	\label{fig:figure1}
+\begin{figure}[H]
+\def\file{../experience/pl1.csv}
+\includestandalone{tikz/plotter.tex}
 \end{figure}
 
+\begin{figure}[H]
+\def\file{../experience/pl2.csv}
+\includestandalone{tikz/plotter.tex}
+\end{figure}
+
+\begin{figure}[H]
+\def\file{../experience/pl3.csv}
+\includestandalone{tikz/plotter.tex}
+\end{figure}
+
+\begin{figure}[H]
+\def\file{../experience/pl4.csv}
+\includestandalone{tikz/plotter.tex}
+\end{figure}
+
+\begin{figure}[H]
+\def\file{../experience/st1.csv}
+\includestandalone{tikz/plotter.tex}
+\end{figure}
 
 \end{document}

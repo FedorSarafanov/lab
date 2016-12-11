@@ -1,0 +1,89 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz,csvsimple}
+\usetikzlibrary{scopes}
+\usetikzlibrary{%
+     decorations.pathreplacing,%
+     decorations.pathmorphing,%
+    patterns,%
+    calc,%
+    scopes,%
+    arrows,%
+    % arrows.spaced,%
+}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english, russian]{babel}
+
+
+
+\begin{document}
+
+\ifdef{\file}{}{\def\file{../experience/pl1.csv}}
+
+\begin{tikzpicture}
+	\def\pht{7.7}
+	\def\phb{0}
+	\def\pwr{14.2}
+	\def\pwl{0}
+	\def\xlabel{$S$, см}
+	\def\ylabel{$t$, с}
+	\coordinate (pic-mid-right) at (\pwr,0);
+	\coordinate (pic-0) at (\pwr,0);
+	\coordinate (pic-mid-left) at (-\pwl,0);
+	\coordinate (pic-mid-top) at (0,\pht);
+	\coordinate (pic-mid-bottom) at (0,-\phb);
+
+	\coordinate (pic-top-right) at (\pwr,\pht);
+	\coordinate (pic-top-left) at (-\pwl,\pht);
+	\coordinate (pic-bottom-right) at (\pwl,-\phb);
+	\coordinate (pic-bottom-left) at (-\pwl,-\phb);
+
+	\draw[step=.1cm , gray!20] (pic-bottom-left) grid (pic-top-right);
+	\draw[step=0.5cm , gray!50] (pic-bottom-left) grid (pic-top-right);
+	\draw[step=1cm , gray!80] (pic-bottom-left) grid (pic-top-right);
+
+
+	\draw[->] ($(pic-mid-left)-(0.5,0)$) -- ($(pic-mid-right)+(0.5,0)$) node[below, xshift=-1.5em, yshift=-1.5em] {\scalebox{1.5}{\xlabel}};
+
+	\draw[->] ($(pic-mid-bottom)-(0,0.5)$) -- ($(pic-mid-top)+(0,0.5)$) node[anchor=south] {\scalebox{1.5}{\ylabel}};
+
+	\node[anchor=north east] at (0,0) {\scalebox{1.5}{0}};
+
+	\def\Xstep{1/5}
+	\def\Ystep{0.75}
+	\def\Xerr{0.5}
+	\def\Yerr{1/25}
+
+	\foreach \x in {5,10,...,70} {
+		\draw (\x*\Xstep,0.05) -- (\x*\Xstep,-0.05);
+		\draw (\x*\Xstep,0) node[anchor=north] {\scalebox{1.5}{$\x$}};
+	}
+
+	\foreach \y in {2,4,...,10} {
+		\draw (0.05,\y*\Ystep) -- (-0.05,\y*\Ystep);
+		\draw (0,\y*\Ystep) node[anchor=east] {\scalebox{1.5}{$\y$}};
+	}
+
+
+	\csvreader[ head to column names,%
+                late after head=\xdef\xold{\s}\xdef\yold{\t},%
+                after line=\xdef\xold{\X}\xdef\yold{\Y},%
+                filter={\value{csvrow}>-1},%
+                ]%
+                {\file}{}%
+    {
+		\pgfmathsetmacro{\X}{\s*\Xstep}%
+		\pgfmathsetmacro{\Y}{\t*\Ystep}%
+
+		\pgfmathsetmacro{\xerr}{\Xerr*\Xstep}%
+		\pgfmathsetmacro{\yerr}{\Yerr*\Ystep}%
+
+	    \draw[black,very thin] (\xold, \yold) -- (\X,\Y);
+		\draw[pattern=north west lines, pattern color=blue] (\X-\xerr,\Y-\yerr) rectangle (\X+\xerr,\Y+\yerr);
+    }
+
+\end{tikzpicture}
+
+\end{document}
