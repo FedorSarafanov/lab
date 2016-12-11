@@ -70,8 +70,6 @@ INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT /usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
-INPUT /usr/share/texmf-dist/tex/latex/bosisio/envmath.sty
-INPUT /usr/share/texmf-dist/tex/latex/bosisio/envmath.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/color.sty

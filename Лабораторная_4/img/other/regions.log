@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.11.20)  23 NOV 2016 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.12.8)  10 DEC 2016 23:18
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -44,9 +44,7 @@ Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ( in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -194,7 +192,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.11 	(12,\lft
+l.12 	(12,\lft
               ) --
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -207,7 +205,7 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.12 	(\rft
+l.13 	(\rft
            ,\lft) --
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -217,7 +215,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.12 	(\rft,\lft
+l.13 	(\rft,\lft
                 ) --
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -230,7 +228,7 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.13 	(\rft
+l.14 	(\rft
            ,-\lft) --
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -241,7 +239,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no , in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.13 	(\rft,-\lft
+l.14 	(\rft,-\lft
                  ) --
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -406,12 +404,12 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--22
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--23
 []
  []
 
 ! Undefined control sequence.
-l.24 \draw
+l.25 \draw
           [step=.1cm , gray!20] (0,-\lft) grid (\rft ,\lft);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -426,7 +424,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \draw[
+l.25 \draw[
            step=.1cm , gray!20] (0,-\lft) grid (\rft ,\lft);
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -455,7 +453,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.24 \draw[step=.1cm , gray!20] (0,-\lft
+l.25 \draw[step=.1cm , gray!20] (0,-\lft
                                         ) grid (\rft ,\lft);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -470,7 +468,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.24 ...[step=.1cm , gray!20] (0,-\lft) grid (\rft
+l.25 ...[step=.1cm , gray!20] (0,-\lft) grid (\rft
                                                    ,\lft);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -480,7 +478,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.24 ....1cm , gray!20] (0,-\lft) grid (\rft ,\lft
+l.25 ....1cm , gray!20] (0,-\lft) grid (\rft ,\lft
                                                   );
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -491,7 +489,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.25 \draw
+l.26 \draw
           [step=0.5cm , gray!50] (0,-\lft) grid (\rft ,\lft);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -524,7 +522,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.25 \draw[step=0.5cm , gray!50] (0,-\lft
+l.26 \draw[step=0.5cm , gray!50] (0,-\lft
                                          ) grid (\rft ,\lft);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -539,7 +537,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.25 ...step=0.5cm , gray!50] (0,-\lft) grid (\rft
+l.26 ...step=0.5cm , gray!50] (0,-\lft) grid (\rft
                                                    ,\lft);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -549,7 +547,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.25 ....5cm , gray!50] (0,-\lft) grid (\rft ,\lft
+l.26 ....5cm , gray!50] (0,-\lft) grid (\rft ,\lft
                                                   );
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -560,7 +558,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.26 \draw
+l.27 \draw
           [step=1cm , gray!80] (0,-\lft) grid (\rft ,\lft);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -591,7 +589,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.26 \draw[step=1cm , gray!80] (0,-\lft
+l.27 \draw[step=1cm , gray!80] (0,-\lft
                                        ) grid (\rft ,\lft);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -606,7 +604,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.26 ...w[step=1cm , gray!80] (0,-\lft) grid (\rft
+l.27 ...w[step=1cm , gray!80] (0,-\lft) grid (\rft
                                                    ,\lft);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -616,7 +614,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.26 ...=1cm , gray!80] (0,-\lft) grid (\rft ,\lft
+l.27 ...=1cm , gray!80] (0,-\lft) grid (\rft ,\lft
                                                   );
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -627,12 +625,12 @@ and I'll forget about whatever was undefined.
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 24--27
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--28
 []
  []
 
 ! Undefined control sequence.
-l.29 \draw
+l.30 \draw
           [-{>[scale=1.0]}] (-0,0) -- (10*1.5 +1 ,0) node[anchor=north west]...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -647,7 +645,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 \draw[
+l.30 \draw[
            -{>[scale=1.0]}] (-0,0) -- (10*1.5 +1 ,0) node[anchor=north west]...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -711,8 +709,8 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.29 ... +1 ,0) node[anchor=north west] {\scalebox
-                                                  {1.5}{$x$}};
+l.30 ... +1 ,0) node[anchor=north west] {\scalebox
+                                                  {1.5}{$A$}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -723,13 +721,13 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 30.
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.30 \draw
-          [->] (0,-\lft) -- (0,\lft+1 ) node[anchor=east] {\scalebox{1.5}{$y...
+l.31 \draw
+          [->] (0,-\lft) -- (0,\lft+1 ) node[anchor=east] {\scalebox{1.5}{$\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -745,8 +743,8 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.30 \draw[->] (0,-\lft
-                       ) -- (0,\lft+1 ) node[anchor=east] {\scalebox{1.5}{$y...
+l.31 \draw[->] (0,-\lft
+                       ) -- (0,\lft+1 ) node[anchor=east] {\scalebox{1.5}{$\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -760,8 +758,8 @@ Missing character: There is no ( in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.30 \draw[->] (0,-\lft) -- (0,\lft
-                                   +1 ) node[anchor=east] {\scalebox{1.5}{$y...
+l.31 \draw[->] (0,-\lft) -- (0,\lft
+                                   +1 ) node[anchor=east] {\scalebox{1.5}{$\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -789,8 +787,8 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.30 ...- (0,\lft+1 ) node[anchor=east] {\scalebox
-                                                  {1.5}{$y$}};
+l.31 ...- (0,\lft+1 ) node[anchor=east] {\scalebox
+                                                  {1.5}{$\frac{\nu_\text{с}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -800,24 +798,63 @@ and I'll forget about whatever was undefined.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
+! Undefined control sequence.
+<argument> \nu _\text 
+                      {с}-\nu _\text {р}
+l.31 ...nu_\text{с}-\nu_\text{р}}{\nu_\text{р}}
+                                                  $}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \nu _\text {с}-\nu _\text 
+                                      {р}
+l.31 ...nu_\text{с}-\nu_\text{р}}{\nu_\text{р}}
+                                                  $}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \nu _\text 
+                      {р}
+l.31 ...nu_\text{с}-\nu_\text{р}}{\nu_\text{р}}
+                                                  $}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no � in font cmr5!
+Missing character: There is no � in font cmr5!
+Missing character: There is no � in font cmr5!
+Missing character: There is no � in font cmr5!
+Missing character: There is no � in font cmr5!
+Missing character: There is no � in font cmr5!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 29--31
+Overfull \hbox (20.0pt too wide) in paragraph at lines 30--32
 []
  []
 
 
-Overfull \hbox (5.71527pt too wide) in paragraph at lines 29--31
-\OML/cmm/m/it/10 x$
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 30--32
+\OML/cmm/m/it/10 A$
  []
 
 
-Overfull \hbox (5.2616pt too wide) in paragraph at lines 29--31
-\OML/cmm/m/it/10 y$ 
+Overfull \hbox (17.66856pt too wide) in paragraph at lines 30--32
+[]$ 
  []
 
 ! Undefined control sequence.
-l.33 \foreach
+l.34 \foreach
               \x in {1,2,3,4,5,6,7,8,9,10} {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -826,7 +863,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.33 \foreach \x
+l.34 \foreach \x
                  in {1,2,3,4,5,6,7,8,9,10} {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -841,7 +878,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \foreach \x i
+l.34 \foreach \x i
                   n {1,2,3,4,5,6,7,8,9,10} {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -869,7 +906,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.34 	\draw
+l.35 	\draw
             (\x*\Xstep,0.05) -- (\x*\Xstep,-0.05);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -879,7 +916,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.34 	\draw (\x
+l.35 	\draw (\x
                *\Xstep,0.05) -- (\x*\Xstep,-0.05);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -889,7 +926,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.34 	\draw (\x*\Xstep
+l.35 	\draw (\x*\Xstep
                       ,0.05) -- (\x*\Xstep,-0.05);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -907,7 +944,7 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.34 	\draw (\x*\Xstep,0.05) -- (\x
+l.35 	\draw (\x*\Xstep,0.05) -- (\x
                                    *\Xstep,-0.05);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -917,7 +954,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.34 	\draw (\x*\Xstep,0.05) -- (\x*\Xstep
+l.35 	\draw (\x*\Xstep,0.05) -- (\x*\Xstep
                                           ,-0.05);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -934,7 +971,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.35 	\draw
+l.36 	\draw
             (\x*\Xstep,0) node[anchor=north] {\scalebox{1.5}{$\x$}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -944,7 +981,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.35 	\draw (\x
+l.36 	\draw (\x
                *\Xstep,0) node[anchor=north] {\scalebox{1.5}{$\x$}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -954,7 +991,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.35 	\draw (\x*\Xstep
+l.36 	\draw (\x*\Xstep
                       ,0) node[anchor=north] {\scalebox{1.5}{$\x$}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -984,7 +1021,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.35 ...\x*\Xstep,0) node[anchor=north] {\scalebox
+l.36 ...\x*\Xstep,0) node[anchor=north] {\scalebox
                                                   {1.5}{$\x$}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -998,7 +1035,7 @@ Missing character: There is no 5 in font nullfont!
 ! Undefined control sequence.
 <recently read> \x 
                    
-l.35 ...,0) node[anchor=north] {\scalebox{1.5}{$\x
+l.36 ...,0) node[anchor=north] {\scalebox{1.5}{$\x
                                                   $}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1008,12 +1045,12 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 33--37
+Overfull \hbox (20.0pt too wide) in paragraph at lines 34--38
 []
  []
 
 ! Undefined control sequence.
-l.38 \foreach
+l.39 \foreach
               \y in {-0.3,-0.2,-0.1, 0, 0.1,0.2,0.3} {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1022,7 +1059,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 \foreach \y
+l.39 \foreach \y
                  in {-0.3,-0.2,-0.1, 0, 0.1,0.2,0.3} {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1037,7 +1074,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \foreach \y i
+l.39 \foreach \y i
                   n {-0.3,-0.2,-0.1, 0, 0.1,0.2,0.3} {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1073,7 +1110,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 3 in font nullfont!
 ! Undefined control sequence.
-l.39 	\draw
+l.40 	\draw
             (0.05,\y*\Ystep) -- (-0.05,\y*\Ystep);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1088,7 +1125,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.39 	\draw (0.05,\y
+l.40 	\draw (0.05,\y
                     *\Ystep) -- (-0.05,\y*\Ystep);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1098,7 +1135,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.39 	\draw (0.05,\y*\Ystep
+l.40 	\draw (0.05,\y*\Ystep
                            ) -- (-0.05,\y*\Ystep);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1117,7 +1154,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.39 	\draw (0.05,\y*\Ystep) -- (-0.05,\y
+l.40 	\draw (0.05,\y*\Ystep) -- (-0.05,\y
                                          *\Ystep);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1127,7 +1164,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.39 	\draw (0.05,\y*\Ystep) -- (-0.05,\y*\Ystep
+l.40 	\draw (0.05,\y*\Ystep) -- (-0.05,\y*\Ystep
                                                 );
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1138,7 +1175,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.40 	\draw
+l.41 	\draw
             (0,\y*\Ystep) node[anchor=east] {\scalebox{1.5}{$\y$}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1150,7 +1187,7 @@ Missing character: There is no ( in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.40 	\draw (0,\y
+l.41 	\draw (0,\y
                  *\Ystep) node[anchor=east] {\scalebox{1.5}{$\y$}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1160,7 +1197,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.40 	\draw (0,\y*\Ystep
+l.41 	\draw (0,\y*\Ystep
                         ) node[anchor=east] {\scalebox{1.5}{$\y$}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1187,7 +1224,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.40 ...(0,\y*\Ystep) node[anchor=east] {\scalebox
+l.41 ...(0,\y*\Ystep) node[anchor=east] {\scalebox
                                                   {1.5}{$\y$}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1201,7 +1238,7 @@ Missing character: There is no 5 in font nullfont!
 ! Undefined control sequence.
 <recently read> \y 
                    
-l.40 ...tep) node[anchor=east] {\scalebox{1.5}{$\y
+l.41 ...tep) node[anchor=east] {\scalebox{1.5}{$\y
                                                   $}};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1211,7 +1248,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 38--42
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--43
 []
  []
 
@@ -1225,17 +1262,17 @@ Enter file name:
 ! Emergency stop.
 <read *> 
          
-l.46 \input{experience/table.out}
+l.47 \input{experience/table.out}
                                  ^^M
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 11 strings out of 493013
- 198 string characters out of 6139316
+ 12 strings out of 493013
+ 202 string characters out of 6139317
  53632 words of memory out of 5000000
- 3651 multiletter control sequences out of 15000+600000
+ 3652 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,1n,12p,124b,60s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,3n,12p,137b,60s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
