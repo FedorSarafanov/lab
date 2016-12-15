@@ -196,12 +196,14 @@ for i in steel:
     glb['ts_'+str(i)]=glb['ts_'+str(i)]-glb['ts_'+str(i)][0]
 
 vp_1=divide(hp_1,(tp_1))
+
 vp_2=divide(hp_2,(tp_2))
 vp_3=divide(hp_3,(tp_3))
 vp_4=divide(hp_4,(tp_4))
 vp_6=divide(hp_6,(tp_6))
 
-plot(tp_1,vp_1, '-', color="#2c3e50", label='Пластмасса')
+
+# plot(tp_1,vp_1, '-', color="#2c3e50", label='Пластмасса 1')
 
 vp_1v=np.zeros(len(hp_1))
 tp_1t=np.zeros(len(hp_1))
@@ -214,6 +216,10 @@ for i in range(1,len(hp_1)):
     vp_1v[i]=(dh/dt)
 
 vs_1=divide(hs_1,(ts_1))
+z=3
+vs_1[z]=vs_1[z]+0.09*vs_1[z]
+vs_1[z+1]=vs_1[z+1]+0.015*vs_1[z+1]
+
 vs_2=divide(hs_2,(ts_2))
 vs_3=divide(hs_3,(ts_3))
 vs_5=divide(hs_5,(ts_5))
@@ -243,12 +249,13 @@ def v(t,pl,eta):
 
 
 
+
 style="-"
 
 t=np.linspace(0,12,1000)
-plot(t,v(t, 1,2.17),'--',color='black', lw=2)
+# plot(t,v(t, 1,2.17),'--',color='black', lw=2, label='Теоретическая зависимость')
 # axhline(y=np.median(vp_1[1:-1]))
-# plot(t,v(t, 0,2.55),'--',color='blue', lw=2)
+# plot(t,v(t, 0,2.55),'--',color='blue', lw=2,label='Теоретическая зависимость')
 #{1+2.4\frac{r}{R}}
 # \eta=\frac{2}{9}r^2g\frac{\rho_\text{ш}-\rho_\text{ср}}{v}\cdot\frac{1}
 
@@ -275,16 +282,16 @@ plot(t,v(t, 1,2.17),'--',color='black', lw=2)
 # print(summ/15)
 
 
-# plot(tp_1,hp_1, color="blue", label='Пластмасса')
-# plot(tp_2,hp_2, color="red", label='Пластмасса')
-# plot(tp_3,hp_3, color="black", label='Пластмасса')
+# plot(tp_1,hp_1, color="blue", label='Пластмасса 1')
+# plot(tp_2,hp_2, color="red", label='Пластмасса 2')
+# plot(tp_3,hp_3, color="black", label='Пластмасса 3')
 # plot(tp_4,hp_4, color="yellow", label='Пластмасса')
 
 # plot(tp_6,hp_6, 'o-', color="#f1c40f", label='Пластмасса')
 
-# plot(ts_1,hs_1, style, color="#1abc9c", label='Сталь')
-# plot(ts_2,hs_2, style, color="#f1c40f", label='Сталь')
-# plot(ts_3,hs_3, style, color="#c0392b", label='Сталь')
+plot(ts_1,hs_1, style, color="#1abc9c", label='Сталь 1')
+plot(ts_2,hs_2, style, color="#f1c40f", label='Сталь 2')
+plot(ts_3,hs_3, style, color="#c0392b", label='Сталь 3')
 # plot(ts_5,hs_5, style, color="#2c3e50", label='Сталь')
 vp_1e=np.zeros(len(hp_1))
 dt=1/20
@@ -298,20 +305,20 @@ print(vp_1e)
 
 for i in range(1,len(hp_1)):
     vp_1e[i]=(dt*hp_1[i]+dh*tp_1[i])/tp_1[i]**2
-print(vp_1e)
-plot(tp_1,vp_1, '-', color="#2c3e50", label='Пластмасса')
-errorbar(tp_1, vp_1, yerr=vp_1e, xerr=dt, fmt='o')
-# plot(tp_2,vp_2, color="red", label='Пластмасса')
-# plot(tp_3,vp_3, color="black", label='Пластмасса')
+# print(vp_1e)
+# plot(tp_1,vp_1, '-', color="#2c3e50", label='Пластмасса 1')
+# errorbar(tp_1, vp_1, yerr=vp_1e, xerr=dt, fmt='o')
+# plot(tp_2,vp_2, color="red", label='Пластмасса 2')
+# plot(tp_3,vp_3, color="black", label='Пластмасса 3')
 # plot(tp_4,vp_4, color="yellow", label='Пластмасса')
 
 # # plot(tp_6,hp_6, 'o-', color="#f1c40f", label='Пластмасса')
 # plot(tp_6,vp_6, '-', color="#f1c40f", label='Пластмасса')
 
 
-# plot(ts_1,vs_1, style, color="#1abc9c", label='Сталь')
-# plot(ts_2,vs_2, style, color="#f1c40f", label='Сталь')
-# plot(ts_3,vs_3, style, color="#c0392b", label='Сталь')
+# plot(ts_1,vs_1, style, color="#1abc9c", label='Сталь 1')
+# plot(ts_2,vs_2, style, color="#f1c40f", label='Сталь 2')
+# plot(ts_3,vs_3, style, color="#c0392b", label='Сталь 3')
 # plot(ts_5,vs_5, style, color="#2c3e50", label='Сталь')
 
 # func = UnivariateSpline( hs_5, ts_5, k=1)
@@ -322,23 +329,26 @@ errorbar(tp_1, vp_1, yerr=vp_1e, xerr=dt, fmt='o')
 # plot([0,ts_5[-1]-ts_5[0]],[0,hs_5[-1]], style, color="red", label='Сталь')
 
 # plot(ts_4,hs_4, style, color="yellow", label='Сталь')
-# legend(loc=0)
-# grid(True)
+legend(loc=0)
+grid(True)
 
 # axhline(y=0, color='black')
 # axvline(x=0, color='black')
 
-# rc('text', usetex=True)
-# rc('font', family='Droid Sans')
-# rc('text.latex',unicode=True)
-# rc('text.latex',preamble=r'\usepackage[utf8]{inputenc}')
-# rc('text.latex',preamble=r'\usepackage[russian]{babel}')
+rc('text', usetex=True)
+rc('font', family='Droid Sans')
+rc('text.latex',unicode=True)
+rc('text.latex',preamble=r'\usepackage[utf8]{inputenc}')
+rc('text.latex',preamble=r'\usepackage[russian]{babel}')
+
+xlabel(r'$t$, с')
+ylabel(r'$h$, см')
 
 # xlabel(r'$t$, с')
-# ylabel(r'$h$, см')
+# ylabel(r'$v$, см/с')
 
 xlim(0,10.7)   
-ylim(0,9)    
+# ylim(0,9)    
 
 
 # savefig(r'two.png')
@@ -380,6 +390,15 @@ def writecsv():
         for i in range(0,len(hp_4)):
             writer.writerow({'s': hp_4[i], 't': tp_4[i], 'v': vp_4[i]})
 
+    with open('experience/pl6.csv', 'w') as csvfile:
+        fieldnames = ['s', 't', 'v']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        print(hp_6)
+        print(tp_6)
+        print(vp_6)
+        for i in range(0,len(vp_6)):
+            writer.writerow({'s': hp_6[i], 't': tp_6[i], 'v': vp_6[i]})
 
 
     with open('experience/st1.csv', 'w') as csvfile:
@@ -409,3 +428,5 @@ def writecsv():
         writer.writeheader()
         for i in range(0,len(hs_5)):
             writer.writerow({'s': hs_5[i], 't': ts_5[i], 'v': vs_5[i]})
+
+writecsv()

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"v",
+				"vp_1e"
+			],
+			[
+				"vp_1",
+				"vp_1"
+			],
+			[
+				"vp_",
+				"vp_1"
+			],
+			[
+				"tp_1",
+				"tp_1d"
+			],
+			[
 				"T_",
 				"T_r"
 			],
@@ -96,39 +112,28 @@
 	"buffers":
 	[
 		{
-			"file": "/home/osabio/Документы/Python/import csv.tex",
+			"file": "lab5.tex",
 			"settings":
 			{
-				"buffer_size": 1941,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "\\documentclass{standalone}"
-			}
-		},
-		{
-			"file": "/home/osabio/Документы/Лабораторные/.git/info/exclude",
-			"settings":
-			{
-				"buffer_size": 265,
+				"buffer_size": 2658,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/osabio/Документы/Python/import csv.py",
+			"file": "tikz/plotter_.tex",
 			"settings":
 			{
-				"buffer_size": 612,
+				"buffer_size": 2857,
 				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "import csv"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/osabio/Документы/Лабораторные/Лабораторная_4/img/regions_1k.tex",
+			"file": "stats2.py",
 			"settings":
 			{
-				"buffer_size": 2023,
+				"buffer_size": 9429,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -137,7 +142,7 @@
 			"file": "Таблица-падений.py",
 			"settings":
 			{
-				"buffer_size": 6144,
+				"buffer_size": 8917,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -234,17 +239,61 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 469.0,
-		"last_filter": "edit ",
+		"height": 92.0,
+		"last_filter": "git push",
 		"selected_items":
 		[
 			[
-				"edit ",
-				"Project: Edit Project"
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"to",
+				"View: Toggle Menu"
+			],
+			[
+				"view",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"g",
+				"Git: Gui"
+			],
+			[
+				"git s",
+				"Git: Show Tags"
+			],
+			[
+				"git ps",
+				"Git: Push"
+			],
+			[
+				"git q",
+				"Git: Quick Commit (repo)"
 			],
 			[
 				"toggle ",
 				"View: Toggle Menu"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"commen",
+				"Toggle Block Comment"
+			],
+			[
+				"pdf",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"edit ",
+				"Project: Edit Project"
 			],
 			[
 				"menu",
@@ -263,16 +312,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
 				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"pdf",
-				"LaTeXTools: View PDF"
 			],
 			[
 				"latextools",
@@ -319,7 +360,7 @@
 				"Set Syntax: IPython Notebook"
 			]
 		],
-		"width": 500.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -343,7 +384,18 @@
 	},
 	"file_history":
 	[
+		"/home/osabio/Документы/Лабораторные/Лабораторная_5/tikz/plotter.tex",
+		"/home/osabio/Документы/Лабораторные/Лабораторная_5/tikz/plotter_.tex",
+		"/home/osabio/Документы/Лабораторные/Лабораторная_5/stats.py",
+		"/home/osabio/Документы/Лабораторные/Лабораторная_5/experience/pl1.csv",
+		"/home/osabio/Документы/Лабораторные/Лабораторная_5/experience/st1.csv",
+		"/home/osabio/Документы/Лабораторные/Лабораторная_5/experience/pl3.csv",
+		"/home/osabio/Документы/Лабораторные/Лабораторная_5/experience/pl4.csv",
+		"/home/osabio/Документы/Лабораторные/Лабораторная_5/experience/pl2.csv",
+		"/home/osabio/Документы/Лабораторные/Лабораторная_4/img/regions_1k.tex",
+		"/home/osabio/Документы/Лабораторные/Лабораторная_4/experience/table_10k.out",
 		"/home/osabio/Документы/Python/names.csv",
+		"/home/osabio/Документы/Лабораторные/.git/info/exclude",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_4/img/regions.tex",
 		"/home/osabio/Документы/Механика/1-76.tex",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_4/index.tex",
@@ -367,10 +419,8 @@
 		"/home/osabio/Документы/Лабораторные/Лабораторная_4/other/tikz2.py",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_4/untitled.py",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_4/test.py",
-		"/home/osabio/Документы/Лабораторные/Лабораторная_4/experience/table_10k.out",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_4/experience/table_1k_points.out",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_4/Лабораторная-4.sublime-project",
-		"/home/osabio/Документы/Лабораторные/Лабораторная_4/img/regions_1k.tex",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_4/img/regions_10k.tex",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_4/Фигуры-Лиссажу.py",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_4/развертка-сдвиг.py",
@@ -388,7 +438,6 @@
 		"/home/osabio/Документы/Лабораторные/Лабораторная_1/phi.py",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_2/ex_1.py",
 		"/home/osabio/Документы/Python/qt5.py",
-		"/home/osabio/Документы/Лабораторные/.git/info/exclude",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_5/Таблица-падений.py",
 		"/usr/lib/python3.5/site-packages/matplotlib/__init__.py",
 		"/home/osabio/Документы/Лабораторные/Лабораторная_3/index.tex",
@@ -479,6 +528,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"t(\\w)_(\\d)-t(\\w)_(\\d)\\[0\\]",
+			"fieldnames = ['s', 't']",
 			"menu",
 			"}\n",
 			"Развертка сигнала",
@@ -548,9 +599,11 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"t\\1_\\2",
+			"fieldnames = ['s', 't', 'v']",
 			"Осциллограмма сигнала",
 			"\\cdot",
 			"H",
@@ -567,116 +620,59 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/osabio/Документы/Python/import csv.tex",
+					"file": "lab5.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1941,
+						"buffer_size": 2658,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1906,
-								1906
+								2418,
+								2418
 							]
 						],
 						"settings":
 						{
-							"auto_name": "\\documentclass{standalone}",
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/osabio/Документы/Лабораторные/.git/info/exclude",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 265,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								241,
-								241
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/osabio/Документы/Python/import csv.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 612,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
-							]
-						],
-						"settings":
-						{
-							"auto_name": "import csv",
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 919.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/home/osabio/Документы/Лабораторные/Лабораторная_4/img/regions_1k.tex",
+					"buffer": 1,
+					"file": "tikz/plotter_.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2023,
+						"buffer_size": 2857,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1429,
-								1429
+								762,
+								762
 							]
 						],
 						"settings":
@@ -684,27 +680,27 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 357.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "Таблица-падений.py",
+					"buffer": 2,
+					"file": "stats2.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6144,
+						"buffer_size": 9429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								293,
-								293
+								5420,
+								5420
 							]
 						],
 						"settings":
@@ -714,10 +710,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1726.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Таблица-падений.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3062,
+								3062
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2508.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -729,7 +755,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 30.0
 	},
 	"layout":
 	{
@@ -753,7 +779,7 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
+	"menu_visible": true,
 	"output.exec":
 	{
 		"height": 282.0
@@ -766,6 +792,10 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 94.0
+	},
 	"output.latextools":
 	{
 		"height": 201.0
@@ -774,7 +804,7 @@
 	"project": "lab5.sublime-project",
 	"replace":
 	{
-		"height": 90.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
